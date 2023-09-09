@@ -1,12 +1,26 @@
 #!/bin/bash
 
-cd $(dirname $0)/..
+cd $(dirname $0)/../events
 
-curl -s "https://www.lebarcommun.fr/events/liste/?ical=1" > events/last_barco_events.ical
-cat events/last_barco_events.ical | grep -E '^URL|^SUMMARY|^DTSTART|^BEGIN:VEVENT' | tr -d '\r' | tr -d '\n' | sed 's/BEGIN/\n/g' | grep ':VEVENT' | sed 's/URL:/;/' | sed 's/SUMMARY:/;/' | sed 's/:VEVENTDTSTART;TZID=Europe.Paris://' | sed 's/^\([0-9][0-9][0-9][0-9]\)\([0-9][0-9]\)\([0-9][0-9]\)T\([0-9][0-9]\)\([0-9][0-9]\)/\1-\2-\3 \4:\5:/' > events/last_barco_events.csv
+for (( annee = 2021 ; annee <= $(date '+%Y') ; annee++ )) ; do
+	for i in 01 02 03 04 05 06 07 08 09 10 11 12; do
+		if ! test -f "events_"$annee'-'$i".ical" ; then
+			curl -s "https://www.lebarcommun.fr/events/mois/"$annee'-'$i"/?ical=1" > "events_"$annee'-'$i".ical"
+		fi
+		if test $annee'-'$i'-31' '>' $(date '+%Y-%m-%d') ; then
+			break 2;
+		fi
+	done
+done
 
-touch events/all_barco_events.csv
-diff events/last_barco_events.csv events/all_barco_events.csv | grep '^<'
+cat "events_"*".ical" | grep -E '^URL|^SUMMARY|^DTSTART|^BEGIN:VEVENT' | tr -d '\r' | tr -d '\n' | sed 's/BEGIN/\n/g' | grep ':VEVENT' | sed 's/URL:/;/' | sed 's/SUMMARY:/;/' | sed 's/:VEVENTDTSTART;TZID=Europe.Paris://' | sed 's/^\([0-9][0-9][0-9][0-9]\)\([0-9][0-9]\)\([0-9][0-9]\)T\([0-9][0-9]\)\([0-9][0-9]\)/\1-\2-\3 \4:\5:/' > barco_events_last.csv
 
-cat events/last_barco_events.csv events/all_barco_events.csv | sort -u > events/all_barco_events.csv.tmp
-mv events/all_barco_events.csv.tmp events/all_barco_events.csv
+rm "events_"$annee'-'$i".ical"
+
+sed -i 's/"//g' barco_events_last.csv barco_events_all.csv
+
+touch barco_events_all.csv
+diff barco_events_last.csv barco_events_all.csv | grep '^<'
+
+cat barco_events_last.csv barco_events_all.csv | sort -u > barco_events_all.csv.tmp
+mv barco_events_all.csv.tmp barco_events_all.csv
