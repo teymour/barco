@@ -1,0 +1,2 @@
+ZELTY_AUTH_BEARER="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=="
+GOOGLE_CAL_URL_WITH_KEY='https://calendar.google.com/calendar/v3/calendars/ID/events?key=KEY'
