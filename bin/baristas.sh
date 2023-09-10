@@ -94,6 +94,10 @@ echo 'mois;role;nom;telephone' > baristas.csv
 ls e*csv | while read file ; do
 	date=$(echo $file | sed 's/events_//' | sed 's/.csv//')
 	cat $file | sed 's/^/'$date';/'
-done >> baristas.csv
+done | iconv -f UTF8 -t UTF8//IGNORE >> baristas.csv
+
+sed -i 's/;$//' baristas.csv
+sed -i 's/;;$/;/' baristas.csv
+sed -i 's/\([0-9]\)[^0-9;]*;$/\1/' baristas.csv
 
 rm -f 'events_'$annee'-'$y'-01.ical'
