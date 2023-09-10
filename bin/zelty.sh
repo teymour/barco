@@ -14,18 +14,26 @@ source ../bin/config.inc
 for (( i = 1 ; i < 2150 ; i )) ; do
 	for (( y = 0 ; y < 7 ; y++ )) ; do
 		day=$(date --iso -d "-"$i" day");
-		if ! test -f $day".json"  ; then
-			echo $day;
-			curl -H "Authorization: Bearer "$ZELTY_AUTH_BEARER 'https://api.zelty.fr/2.7/orders?from='$day'T00:00:00&to='$day'T00:00:00&expand[]=items&expand[]=price&expand[]=transactions&expand[]=transactions.method' > $day".json" ;
-			downloaded=1
-		fi
-		if ! test -s $day".json" ||  grep 'Too many requests' $day".json" ; then
-			rm $day".json" ;
-			sleep $waittime ;
-			(( waittime = waittime * 2));
-		else
-			(( i ++ )) ;
-		fi
+		offset="000"
+		while true ; do
+			if ! test -f $day"_"$offset".json"  ; then
+				curl -H "Authorization: Bearer "$ZELTY_AUTH_BEARER 'https://api.zelty.fr/2.7/orders?from='$day'&to='$day'&expand[]=items&expand[]=price&expand[]=transactions&expand[]=transactions.method&limit=100&offset='$offset > $day"_"$offset".json" ;
+				downloaded=1
+			fi
+			if ! test -s $day"_"$offset".json" ||  grep 'Too many requests' $day"_"$offset".json" ; then
+				rm $day"_"$offset".json" ;
+				sleep $waittime ;
+				(( waittime = waittime * 2));
+				continue;
+			fi
+			count=$( jq . < $day"_"$offset".json" | grep '"date"' | wc -l)
+			if test 0 = "$count" ; then
+				(( i ++ )) ;
+				break 2;
+			else
+				(( offset = offset + $count )) ;
+			fi
+		done
 	done
 	if test "$downloaded"; then
 		sleep 5 ;
@@ -33,6 +41,7 @@ for (( i = 1 ; i < 2150 ; i )) ; do
 	waittime=10
 	downloaded=""
 done
+
 ls *json | while read json ; do
 	csv=$(echo $json | sed 's/json/csv/')
 	if ! test -s $csv; then
