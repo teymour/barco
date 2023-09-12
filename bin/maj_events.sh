@@ -13,11 +13,12 @@ for (( annee = 2021 ; annee <= $(date '+%Y') ; annee++ )) ; do
 	done
 done
 
-cat "events_"*".ical" | grep -E '^URL|^SUMMARY|^DTSTART|^BEGIN:VEVENT' | tr -d '\r' | tr -d '\n' | sed 's/BEGIN/\n/g' | grep ':VEVENT' | sed 's/URL:/;/' | sed 's/SUMMARY:/;/' | sed 's/:VEVENTDTSTART;TZID=Europe.Paris://' | sed 's/^\([0-9][0-9][0-9][0-9]\)\([0-9][0-9]\)\([0-9][0-9]\)T\([0-9][0-9]\)\([0-9][0-9]\)/\1-\2-\3 \4:\5:/' > barco_events_last.csv
+cat "events_"*".ical" | grep -E '^URL|^SUMMARY|^DTSTART|^BEGIN:VEVENT' | tr -d '\r' | tr -d '\n' | sed 's/BEGIN/\n/g' | grep ':VEVENT' | sed 's/URL:/;/' | sed 's/SUMMARY:/;/' | sed 's/:VEVENTDTSTART;TZID=Europe.Paris://' | sed 's/^\([0-9][0-9][0-9][0-9]\)\([0-9][0-9]\)\([0-9][0-9]\)T\([0-9][0-9]\)\([0-9][0-9]\)/\1-\2-\3 \4:\5:/'i | sed 's/DTSTART:[0-9]*//g' > barco_events_last.csv
 
 rm "events_"$annee'-'$i".ical"
 
 sed -i 's/"//g' barco_events_last.csv barco_events_all.csv
+sed -i 's/DTSTART:[0-9]*//g' barco_events_last.csv barco_events_all.csv
 
 touch barco_events_all.csv
 diff barco_events_last.csv barco_events_all.csv | grep '^<'
