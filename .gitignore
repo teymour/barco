@@ -4,3 +4,5 @@ events/
 calendar/
 notebook/.ipynb_checkpoints/
 notebook/__pycache__/
+notebook/*py
+web/generated

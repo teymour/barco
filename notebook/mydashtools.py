@@ -1,3 +1,5 @@
+import os
+
 def is_notebook() -> bool:
     try:
         shell = str(type(get_ipython()))
@@ -11,3 +13,5 @@ def is_notebook() -> bool:
 def fig_save_or_show(fig, file):
     if is_notebook():
         fig.show()
+    else:
+        fig.write_html(os.path.dirname(os.path.realpath(__file__))+"/../web/generated/"+file+".html",include_plotlyjs=False)
