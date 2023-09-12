@@ -17,7 +17,7 @@ for (( i = 1 ; i < 2150 ; i )) ; do
 		offset="000"
 		while true ; do
 			if ! test -f $day"_"$offset".json"  ; then
-				curl -H "Authorization: Bearer "$ZELTY_AUTH_BEARER 'https://api.zelty.fr/2.7/orders?from='$day'&to='$day'&expand[]=items&expand[]=price&expand[]=transactions&expand[]=transactions.method&limit=100&offset='$offset > $day"_"$offset".json" ;
+				curl -s -H "Authorization: Bearer "$ZELTY_AUTH_BEARER 'https://api.zelty.fr/2.7/orders?from='$day'&to='$day'&expand[]=items&expand[]=price&expand[]=transactions&expand[]=transactions.method&limit=100&offset='$offset > $day"_"$offset".json" ;
 				downloaded=1
 			fi
 			if ! test -s $day"_"$offset".json" ||  grep 'Too many requests' $day"_"$offset".json" ; then

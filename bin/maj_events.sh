@@ -18,10 +18,12 @@ cat "events_"*".ical" | grep -E '^URL|^SUMMARY|^DTSTART|^BEGIN:VEVENT' | tr -d '
 rm "events_"$annee'-'$i".ical"
 
 sed -i 's/"//g' barco_events_last.csv barco_events_all.csv
+sed -i "s/'//g" barco_events_last.csv barco_events_all.csv
 sed -i 's/DTSTART:[0-9]*//g' barco_events_last.csv barco_events_all.csv
 
 touch barco_events_all.csv
 diff barco_events_last.csv barco_events_all.csv | grep '^<'
 
-cat barco_events_last.csv barco_events_all.csv | sort -u > barco_events_all.csv.tmp
-mv barco_events_all.csv.tmp barco_events_all.csv
+cat barco_events_last.csv barco_events_all.csv | grep -v "date;titre;url" | sort -u > barco_events_all.csv.tmp
+echo "date;titre;url" > barco_events_all.csv
+cat barco_events_all.csv.tmp >> barco_events_all.csv
