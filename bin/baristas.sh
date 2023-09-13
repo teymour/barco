@@ -15,15 +15,15 @@ for (( annee = 2017 ; annee <= $(date '+%Y') ; annee++ )) ; do
 		if ! test -s 'events_'$annee'-'$y'-01.ical' ; then
 			wget -q $GOOGLE_CAL_URL_WITH_KEY'&calendarId=services.lebarcommun%40gmail.com&singleEvents=true&timeZone=GMT%2B2%3A0&maxAttendees=1&maxResults=500&sanitizeHtml=true&timeMin='$annee'-'$i'-01T00%3A00%3A00%2B02%3A00&timeMax='$annee'-'$y'-01T00%3A00%3A00%2B02%3A00' ;
 		fi
-		if test $annee'-'$y'-31' '>' $(date '+%Y-%m-%d') ; then
+		if test $annee'-'$i'-31' '>' $(date '+%Y-%m-%d') ; then
 			break 2;
 		fi
 	done
-	anneeplus1=$(echo $annee | awk '{printf("%d", $1 + 1)}'; ) ;
-	if ! test -s 'events_'$annee'-'$y'-01.ical' ; then
-		wget -q $GOOGLE_CAL_URL_WITH_KEY'&calendarId=services.lebarcommun%40gmail.com&singleEvents=true&timeZone=GMT%2B2%3A0&maxAttendees=1&maxResults=500&sanitizeHtml=true&timeMin='$annee'-'$y'-01T00%3A00%3A00%2B02%3A00&timeMax='$anneeplus1'-01-01T00%3A00%3A00%2B02%3A00' ;
+	(( anneeplus1 = annee +1 )) ;
+	if ! test -s 'events_'$annee'-12-01.ical' && test "$y" = 12 ; then
+		wget -q $GOOGLE_CAL_URL_WITH_KEY'&calendarId=services.lebarcommun%40gmail.com&singleEvents=true&timeZone=GMT%2B2%3A0&maxAttendees=1&maxResults=500&sanitizeHtml=true&timeMin='$annee'-12-01T00%3A00%3A00%2B02%3A00&timeMax='$anneeplus1'-01-01T00%3A00%3A00%2B02%3A00' ;
 	fi
-	if test $annee'-'$y'-31' '>' $(date '+%Y-%m-%d') ; then
+	if test $annee'-12-31' '>' $(date '+%Y-%m-%d') ; then
 		break 1;
 	fi
 done
@@ -36,8 +36,11 @@ rm -f *services.lebarcommun* *01T00:00:00*
 #jq -c '.items|.[]|[.location, .start.dateTime]'
 
 ls event*ical | while read ical ; do
-	csv=$(echo $ical | sed 's/ical/csv/')
-	jq . < $ical  | grep location  | sed 's/"/\n/g'  | grep 'REFERENT\|ANNU' |
+	csv=$(echo "$ical" | sed 's/ical/csv/')
+	if ! test -f "$csv" ; then
+	jq .items[] < "$ical" | jq -c '[.start.dateTime,.location]' | grep 'REFERENT\|ANNU' | while read line ; do
+		date=$(echo $line | awk -F '"' '{print $2}')
+		echo $line | awk -F '"' '{print $4}' |
 	  sed 's/ *\/ */\n/g' |
 #	  grep -v RENFORT |
 	  sed "s/\\\\*'/'/g" |
@@ -87,14 +90,13 @@ ls event*ical | while read ical ; do
 	  grep -i '[a-z]' |
 	  awk -F ';' 'BEGIN{OFS=";"}{$4 = "" ; if ($1 !~ /REFERENT/ && $1 !~ /BARISTA/ && $1 !~ /RENFORT/ && $1 !~ /CRENEAU/) print "BARISTA;"$0  ; else print $0 ; }' |
 	  sed 's/l;$/;/' |
-	  grep -vi '\(;\|^\)\(nom\|tel\|num\|n°\)' > $csv
+	  grep -vi '\(;\|^\)\(nom\|tel\|num\|n°\)' | sed 's/^/'$date';/'
+  done > "$csv"
+fi
 done
 
-echo 'mois;role;nom;telephone' > baristas.csv
-ls e*csv | while read file ; do
-	date=$(echo $file | sed 's/events_//' | sed 's/.csv//')
-	cat $file | sed 's/^/'$date';/'
-done | iconv -f UTF8 -t UTF8//IGNORE >> baristas.csv
+echo 'date;role;nom;telephone' > baristas.csv
+cat e*csv | iconv -f UTF8 -t UTF8//IGNORE >> baristas.csv
 
 sed -i 's/;$//' baristas.csv
 sed -i 's/;;$/;/' baristas.csv
