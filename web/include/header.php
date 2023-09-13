@@ -28,14 +28,14 @@
     <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
       <a href="." class="d-flex align-items-center link-body-emphasis text-decoration-none">
         <img src="./img/barcommun_logo.png" height="40" width="40"/>
-        <span class="px-2 fs-4"> Bar Commun</span>
+        <span class="px-2 fs-4">Le Bar Commun</span>
       </a>
 
       <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
         <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="https://lebarcommun.fr/">Site du bar</a>
         <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="https://www.lebarcommun.fr/events/">Agenda</a>
         <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="https://www.lebarcommun.fr/bieres_bouteilles/">Les bières</a>
-        <a class="py-2 link-body-emphasis text-decoration-none" href="./">Le chiffres</a>
+        <a class="py-2 link-body-emphasis text-decoration-none" href="./">Les chiffres</a>
       </nav>
     </div>
 
