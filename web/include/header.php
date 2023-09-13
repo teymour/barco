@@ -11,7 +11,16 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="js/plotly-2.18.0.min.js"></script>
     <script src="js/plotly-locale-fr.js"></script>
-
+    <script>Plotly.setPlotConfig({locale: 'fr',displaylogo: false})</script>
+    <style>
+        .graph{
+            height: 400px;
+            overflow: hidden;
+        }
+        .graphcard{
+            padding-bottom: 70px;
+        }
+    </style>
   <body>
 
 <div class="container py-3">
