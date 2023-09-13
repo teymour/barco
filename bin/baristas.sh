@@ -14,17 +14,20 @@ for (( annee = 2017 ; annee <= $(date '+%Y') ; annee++ )) ; do
 		y=$(echo $i | awk '{printf("%02d", $1 + 1)}'; ) ;
 		if ! test -s 'events_'$annee'-'$y'-01.ical' ; then
 			wget -q $GOOGLE_CAL_URL_WITH_KEY'&calendarId=services.lebarcommun%40gmail.com&singleEvents=true&timeZone=GMT%2B2%3A0&maxAttendees=1&maxResults=500&sanitizeHtml=true&timeMin='$annee'-'$i'-01T00%3A00%3A00%2B02%3A00&timeMax='$annee'-'$y'-01T00%3A00%3A00%2B02%3A00' ;
+			rm -f 'events_'$annee'-'$y'-01.csv'
 		fi
 		if test $annee'-'$i'-31' '>' $(date '+%Y-%m-%d') ; then
-			break 2;
+			break;
 		fi
 	done
 	(( anneeplus1 = annee +1 )) ;
 	if ! test -s 'events_'$annee'-12-01.ical' && test "$y" = 12 ; then
+		i=12
 		wget -q $GOOGLE_CAL_URL_WITH_KEY'&calendarId=services.lebarcommun%40gmail.com&singleEvents=true&timeZone=GMT%2B2%3A0&maxAttendees=1&maxResults=500&sanitizeHtml=true&timeMin='$annee'-12-01T00%3A00%3A00%2B02%3A00&timeMax='$anneeplus1'-01-01T00%3A00%3A00%2B02%3A00' ;
+		rm -f 'events_'$annee'-12-01.csv'
 	fi
 	if test $annee'-12-31' '>' $(date '+%Y-%m-%d') ; then
-		break 1;
+		break;
 	fi
 done
 
@@ -102,4 +105,4 @@ sed -i 's/;$//' baristas.csv
 sed -i 's/;;$/;/' baristas.csv
 sed -i 's/\([0-9]\)[^0-9;]*;$/\1/' baristas.csv
 
-rm -f 'events_'$annee'-'$y'-01.ical'
+rm -f 'events_'$annee'-'$i'-01.ical'
