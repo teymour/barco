@@ -4,6 +4,16 @@
 
     apt install php python3-pandas python-plotly jq curl wget
 
+## Génération des données et de l'interface
+
+Pour générer les données :
+
+    make update
+
+Pour générer l'interface et les graph plotly
+
+    make
+
 ## Zelty
 
 Pour configurer : indiquer la clé de Baerer dans `bin/config.inc` :
