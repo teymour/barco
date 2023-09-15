@@ -13,10 +13,6 @@
     <script src="js/plotly-locale-fr.js"></script>
     <script>Plotly.setPlotConfig({locale: 'fr',displaylogo: false})</script>
     <style>
-        .graph{
-            height: 400px;
-            overflow: hidden;
-        }
         .graphcard{
             padding-bottom: 70px;
         }

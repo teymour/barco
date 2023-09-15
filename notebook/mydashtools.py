@@ -11,6 +11,7 @@ def is_notebook() -> bool:
         return False      # Probably standard Python interpreter
 
 def fig_save_or_show(fig, file):
+    fig.update_layout(margin=dict(l=20, r=20, t=20, b=20))
     if is_notebook():
         fig.show()
     else:
