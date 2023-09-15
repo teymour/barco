@@ -1,5 +1,9 @@
 # Script pour le Bar Commun
 
+## Installation
+
+    apt install php python3-pandas python-plotly jq curl wget
+
 ## Zelty
 
 Pour configurer : indiquer la clé de Baerer dans `bin/config.inc` :
