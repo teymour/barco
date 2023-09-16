@@ -18,6 +18,7 @@
         }
         .explication {
             max-width: 50em;
+            margin: auto;
         }
     </style>
   <body>
