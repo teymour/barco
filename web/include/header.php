@@ -16,6 +16,9 @@
         .graphcard{
             padding-bottom: 70px;
         }
+        .explication {
+            max-width: 50em;
+        }
     </style>
   <body>
 

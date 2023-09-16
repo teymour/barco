@@ -8,7 +8,7 @@
           </div>
           <div class="card-body">
               <?php include('generated/adhesions_01_adhesion_des_derniers_jours.html'); ?>
-              <p>Le nombre d'adhésions quotidiennes sur les 30 derniers jours</p>
+              <p class="explication">Le nombre d'adhésions quotidiennes sur les 30 derniers jours</p>
               <p class="text-muted">Données issues de zelty</p>
           </div>
           <div class="card-footer text-body-primary">
@@ -29,7 +29,7 @@
           </div>
           <div class="card-body">
               <?php include('generated/evenements_01_events_par_semaine.html'); ?>
-              <p>Le nombre d'évènements par semaine</p>
+              <p class="explication">Le nombre d'évènements par semaine</p>
               <p class="text-muted">Données issues du site du <a href="https://www.lebarcommun.fr/events/">bar commun</a></p>
           </div>
           <div class="card-footer text-body-secondary">
@@ -47,7 +47,7 @@
           </div>
           <div class="card-body">
               <?php include('generated/baristas_05_nb_services_réalisés_par_mois.html'); ?>
-              <p>Le nombre de services réalisés par mois. (Pour un créneau, 1 référent et 2 baristas = 3 services réalisés)</p>
+              <p class="explication">Le nombre de services réalisés par mois. (Pour un créneau, 1 référent et 2 baristas = 3 services réalisés)</p>
               <p class="text-muted">Données issues du calendrier partagé des services</p>
           </div>
           <div class="card-footer text-body-secondary">
@@ -65,7 +65,7 @@
           </div>
           <div class="card-body">
               <?php include('generated/recettes_03_ca_total_par_an.html'); ?>
-              <p>Les recettes annuelles et recette "à date" en euro</p>
+              <p class="explication">Les recettes annuelles et recette "à date" en euros</p>
               <p class="text-muted">Données issues de Zelty</p>
           </div>
           <div class="card-footer text-body-secondary">
