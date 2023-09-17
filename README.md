@@ -2,7 +2,7 @@
 
 ## Installation
 
-    apt install php python3-pandas python-plotly jq curl wget jupyter-notebook jupyter-nbconvert
+    apt install php python3-pandas python-plotly jq curl wget jupyter-notebook jupyter-nbconvert rename
 
 ## Génération des données et de l'interface
 
