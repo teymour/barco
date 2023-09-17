@@ -51,7 +51,7 @@
 				<div class="graph">
 				<?php include('generated/recettes_05_ca_quotidien_top50_12_mois.html'); ?>
 				</div>
-				<p class="explication">Top 30 des meilleures recettes quotidiennes sur 12 mois glissants.</p>
+				<p class="explication">Top 50 des meilleures recettes quotidiennes sur 12 mois glissants (en rouge les recettes des 30 derniers jours)</p>
 				<p class="text-muted">Données : Zelty</p>
 				</center>
 			  </div>
