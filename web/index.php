@@ -9,7 +9,7 @@
           <div class="card-body">
               <?php include('generated/adhesions_01_adhesion_des_derniers_jours.html'); ?>
               <p class="explication">Le nombre d'adhésions quotidiennes sur les 30 derniers jours</p>
-              <p class="text-muted">Données issues de zelty</p>
+              <p class="text-muted">Données : zelty</p>
           </div>
           <div class="card-footer text-body-primary">
               <div class="px-5 float-end">
@@ -30,7 +30,7 @@
           <div class="card-body">
               <?php include('generated/evenements_01_events_par_semaine.html'); ?>
               <p class="explication">Le nombre d'évènements par semaine</p>
-              <p class="text-muted">Données issues du site du <a href="https://www.lebarcommun.fr/events/">bar commun</a></p>
+              <p class="text-muted">Données : site du <a href="https://www.lebarcommun.fr/events/">bar commun</a></p>
           </div>
           <div class="card-footer text-body-secondary">
               <div class="px-5 float-end">
@@ -48,7 +48,7 @@
           <div class="card-body">
               <?php include('generated/baristas_05_nb_services_réalisés_par_mois.html'); ?>
               <p class="explication">Le nombre de services réalisés par mois. (Pour un créneau, 1 référent et 2 baristas = 3 services réalisés)</p>
-              <p class="text-muted">Données issues du calendrier partagé des services</p>
+              <p class="text-muted">Données : calendrier partagé des services</p>
           </div>
           <div class="card-footer text-body-secondary">
               <div class="px-5 float-end">
@@ -66,7 +66,7 @@
           <div class="card-body">
               <?php include('generated/recettes_03_ca_total_par_an.html'); ?>
               <p class="explication">Les recettes annuelles et recette "à date" en euros</p>
-              <p class="text-muted">Données issues de Zelty</p>
+              <p class="text-muted">Données : Zelty</p>
           </div>
           <div class="card-footer text-body-secondary">
               <div class="px-5 float-end">

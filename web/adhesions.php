@@ -12,7 +12,7 @@
 			<?php include("generated/adhesions_01_adhesion_des_derniers_jours.html"); ?>
 			</div>
 			<p class="explication">Nombre d'adhésions payées par jour sur 30 jours glissant</p>
-			<p class="text-muted">Données issues de zelty</a>
+			<p class="text-muted">Données : zelty</p>
 			</center>
 		  </div>
 		  <div class="row cardgraph">
@@ -22,7 +22,7 @@
 			<?php include("generated/adhesions_02_adhesion_par_mois.html"); ?>
 			</div>
 			<p class="explication">Nombre d'adhésions payées par mois. Les couleurs représentent les différentes années</p>
-			<p class="text-muted">Données issues de zelty</a>
+			<p class="text-muted">Données : zelty</p>
 			</center>
 		</div>
 		<div class="row graphcard">
@@ -32,7 +32,7 @@
 			<?php include("generated/adhesions_03_adhesion_par_an.html"); ?>
 			</div>
 			<p class="explication">Nombre d'adhésions payées par an pour chaque année civile (rouge), comparé aux nombres d'adhésions payées entre le 1er janvier et le dernier jour d'ouverture du bar pour chaque année civile (bleu).</p>
-			<p class="text-muted">Données issues de zelty</a>
+			<p class="text-muted">Données : zelty</p>
 			</center>
 		</div>
 		<div class="row graphcard">

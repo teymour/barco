@@ -12,7 +12,7 @@
 			<?php include("generated/evenements_01_events_par_semaine.html"); ?>
 			</div>
 			<p class="explication">Le nombre d'évènements par semaine</p>
-			<p class="text-muted">Données issues du site du <a href="https://www.lebarcommun.fr/events/">bar commun</a></p>
+			<p class="text-muted">Données : site du <a href="https://www.lebarcommun.fr/events/">bar commun</a></p>
 			</center>
 		  </div>
 		  <div class="row graphcard">
@@ -22,7 +22,7 @@
 			<?php include("generated/evenements_02_events_mensuels_par_an.html"); ?>
 			</div>
 			<p class="explication">Le nombre d'évènements par mois sur 12 mois glissant</p>
-			<p class="text-muted">Données issues du site du <a href="https://www.lebarcommun.fr/events/">bar commun</a></p>
+			<p class="text-muted">Données : site du <a href="https://www.lebarcommun.fr/events/">bar commun</a></p>
 			</center>
 		</div>
 		<div class="row graphcard">
@@ -32,7 +32,7 @@
 			<?php include("generated/evenements_03_events_par_an.html"); ?>
 			</div>
 			<p class="explication">Le nombre d'évènements par an</p>
-			<p class="text-muted">Données issues du site du <a href="https://www.lebarcommun.fr/events/">bar commun</a></p>
+			<p class="text-muted">Données : site du <a href="https://www.lebarcommun.fr/events/">bar commun</a></p>
 			</center>
 		</div>
 		<div class="row graphcard">

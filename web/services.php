@@ -12,7 +12,7 @@
 				<?php include("generated/baristas_07_nb_services_ouverts.html"); ?>
 				</div>
 				<p class="explication">Nombre de créneaux ouverts par mois</p>
-  			  	<p class="text-muted">Données issues de l'agenda partagé des services</a>
+  			  	<p class="text-muted">Données : agenda partagé des services</p>
   			  	</center>
 			</div>
 			<div class="row graphcard">
@@ -22,7 +22,7 @@
 			  <?php include("generated/baristas_01_creneaux_annules.html"); ?>
 		  	  </div>
 			  <p class="explication">Nombre de créneaux annulés par mois</p>
-			  <p class="text-muted">Données issues de l'agenda partagé des services</a>
+			  <p class="text-muted">Données : agenda partagé des services</p>
 			  </center>
 			</div>
 			<div class="row graphcard">
@@ -32,7 +32,7 @@
 				<?php include("generated/baristas_02_nb_baristas_par_an.html"); ?>
 				</div>
 				<p class="explication">Nombre de baristas ayant fait au moins un service sur l'année civile pour chaque année</p>
-				<p class="text-muted">Données issues de l'agenda partagé des services</a>
+				<p class="text-muted">Données : agenda partagé des services</p>
 				</center>
 			</div>
 			<div class="row graphcard">
@@ -42,7 +42,7 @@
 				<?php include("generated/baristas_04_nb_baristas_par_mois.html"); ?>
 				</div>
 				<p class="explication">Nombre de baristas ayant fait au moins un service sur le mois. Chaque couleur représente une année.</p>
-				<p class="text-muted">Données issues de l'agenda partagé des services</a>
+				<p class="text-muted">Données : agenda partagé des services</p>
 				</center>
 			</div>
 			<div class="row graphcard">
@@ -52,7 +52,7 @@
 				<?php include("generated/baristas_03_nb_services_realises_par_an.html"); ?>
 				</div>
 				<p class="explication">Nombre de services réalisés par an. (Un créneaux avec un référence et deux baristas = 3 services réalisés)</p>
-  			  	<p class="text-muted">Données issues de l'agenda partagé des services</a>
+  			  	<p class="text-muted">Données : agenda partagé des services</p>
   			  	</center>
 			</div>
 			<div class="row graphcard">
@@ -62,7 +62,7 @@
 				<?php include("generated/baristas_05_nb_services_réalisés_par_mois.html"); ?>
 				</div>
 				<p class="explication">Nombre de services réalisés par mois. (Un créneaux avec un référence et deux baristas = 3 services réalisés). Chaque couleur représente une année.</p>
-  			  	<p class="text-muted">Données issues de l'agenda partagé des services</a>
+  			  	<p class="text-muted">Données : agenda partagé des services</p>
   			  	</center>
 			</div>
 			<div class="row graphcard">
@@ -72,7 +72,7 @@
 				<?php include("generated/baristas_06_nb_referents_par_mois.html"); ?>
 				</div>
 				<p class="explication">Nombre de référents ayant fait au moins un service dans le mois. Chaque couleur représente une année.</p>
-  			  	<p class="text-muted">Données issues de l'agenda partagé des services</a>
+  			  	<p class="text-muted">Données : agenda partagé des services</p>
   			  	</center>
 			</div>
 			<div class="row graphcard">
@@ -82,7 +82,7 @@
 				<?php include("generated/baristas_08_nb_services_par_baristas_12_mois.html"); ?>
 				</div>
 				<p class="explication">Nombre de services réalisés par baristas/référents sur 12 mois. Trié par nombre de service.
-  			  	<p class="text-muted">Données issues de l'agenda partagé des services</a>
+  			  	<p class="text-muted">Données : agenda partagé des services</p>
   			  	</center>
 			</div>
 		    <div class="row graphcard">
