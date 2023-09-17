@@ -11,7 +11,11 @@ if ! test -f ../bin/config.inc; then
 fi
 source ../bin/config.inc
 
-for (( i = 1 ; i < 2150 ; i )) ; do
+if ! test "$ZELTY_DAYS"; then
+	ZELTY_DAYS=2150
+fi
+touch /tmp/zelty.$$
+for (( i = 1 ; i < $ZELTY_DAYS ; i )) ; do
 	for (( y = 0 ; y < 7 ; y++ )) ; do
 		day=$(date --iso -d "-"$i" day");
 		offset="000"
@@ -42,12 +46,13 @@ for (( i = 1 ; i < 2150 ; i )) ; do
 	downloaded=""
 done
 
-ls *json | while read json ; do
+find . -newer /tmp/zelty.$$ -name '*json' | while read json ; do
 	csv=$(echo $json | sed 's/json/csv/')
 	if ! test -s $csv; then
 		python ../bin/zelty2csv.py $json > $csv
 	fi
 done
+rm /tmp/zelty.$$
 
 echo "date;order uuid;pid;produit;price;category" > zelty.csv
 ls 20*csv | while read csv ; do
