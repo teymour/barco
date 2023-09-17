@@ -94,7 +94,7 @@ ls event*ical | while read ical ; do
 	  awk -F ';' 'BEGIN{OFS=";"}{$4 = "" ; if ($1 !~ /REFERENT/ && $1 !~ /BARISTA/ && $1 !~ /RENFORT/ && $1 !~ /CRENEAU/) print "BARISTA;"$0  ; else print $0 ; }' |
 	  sed 's/l;$/;/' |
 	  grep -vi '\(;\|^\)\(nom\|tel\|num\|n°\)' | sed 's/^/'$date';/'
-  done > "$csv"
+  done | sort > "$csv"
 fi
 done
 
