@@ -40,7 +40,7 @@
     </div>
 
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-      <h1 class="display-4 fw-normal text-body-emphasis">Tableaux de bord</h1>
+      <h1 class="display-4 fw-normal text-body-emphasis"><a href="index.php" class="link-underline link-underline-opacity-0 link-dark">Tableaux de bord</a></h1>
       <p class="fs-5 text-body-secondary">Des données pour suivre l'activité du bar commun</p>
     </div>
   </header>
