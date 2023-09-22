@@ -6,7 +6,7 @@
 		</div>
 		<div class="card-body">
 				<div class="row graphcard">
-  				  <h2 id="Bénéfice_mensuel">Bénéfice mensuel <a href="#Bénéfice_mensuel" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
+  				  <h2 id="Bénéfice_mensuel">Évaluation du bénéfice mensuel <a href="#Bénéfice_mensuel" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
 				  <center>
 					  <div class="graph">
   				  <?php include('generated/recettes_06_benefice.html'); ?>
