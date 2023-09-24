@@ -26,6 +26,16 @@
 			  </center>
 			</div>
 			<div class="row graphcard">
+			  <h2 id="Nombre_de_créneaux_annulés_semaine">Nombre de créneaux annulés <a href="#Nombre_de_créneaux_annulés_semaine" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
+			  <center>
+			  <div class="graph">
+			  <?php include("generated/baristas_11_creneaux_annules_semaine.html"); ?>
+		  	  </div>
+			  <p class="explication">Nombre de créneaux annulés par moment de la semaine sur les 6 derniers mois</p>
+			  <p class="text-muted">Données : agenda partagé des services</p>
+			  </center>
+			</div>
+			<div class="row graphcard">
 				<h2 id="Nombre_de_baristas_par_an">Nombre de baristas par an <a href="#Nombre_de_baristas_par_an" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
 				<center>
 				<div class="graph">
