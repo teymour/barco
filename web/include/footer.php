@@ -1,8 +1,9 @@
 
   </main>
 
-  <footer class="pt-4 my-md-5 pt-md-5 border-top">
-    <div class="row">
+  <footer class="pt-4">
+    <div class="row text-center pt-1 border-top">
+        <a href="https://github.com/teymour/barco">Logiciel Libre diffusé sous AGPL - Accéder ou contribuer au code source</a>
     </div>
   </footer>
 </div>
