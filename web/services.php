@@ -26,7 +26,7 @@
 			  </center>
 			</div>
 			<div class="row graphcard">
-			  <h2 id="Nombre_de_créneaux_annulés_semaine">Nombre de créneaux annulés <a href="#Nombre_de_créneaux_annulés_semaine" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
+			  <h2 id="Nombre_de_créneaux_annulés_semaine">Créneaux : Moments les plus annulés <a href="#Nombre_de_créneaux_annulés_semaine" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
 			  <center>
 			  <div class="graph">
 			  <?php include("generated/baristas_11_creneaux_annules_semaine.html"); ?>
