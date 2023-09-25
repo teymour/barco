@@ -7,15 +7,15 @@ for (( annee = 2021 ; annee <= $(date '+%Y') ; annee++ )) ; do
 		if ! test -f "events_"$annee'-'$i".ical" ; then
 			curl -s "https://www.lebarcommun.fr/events/mois/"$annee'-'$i"/?ical=1" > "events_"$annee'-'$i".ical"
 		fi
-		if test $annee'-'$i'-31' '>' $(date '+%Y-%m-%d') ; then
+		if test $annee'-'$i'-31' '>' $(date -d "+1 month" '+%Y-%m-%d') ; then
 			break 2;
 		fi
 	done
 done
 
-cat "events_"*".ical" | grep -E '^URL|^SUMMARY|^DTSTART|^BEGIN:VEVENT' | tr -d '\r' | tr -d '\n' | sed 's/BEGIN/\n/g' | grep ':VEVENT' | sed 's/URL:/;/' | sed 's/SUMMARY:/;/' | sed 's/:VEVENTDTSTART;TZID=Europe.Paris://' | sed 's/^\([0-9][0-9][0-9][0-9]\)\([0-9][0-9]\)\([0-9][0-9]\)T\([0-9][0-9]\)\([0-9][0-9]\)/\1-\2-\3 \4:\5:/'i | sed 's/DTSTART:[0-9]*//g' > barco_events_last.csv
+cat "events_"*".ical" | grep -E '^URL|^SUMMARY|^DTSTART|^BEGIN:VEVENT' | tr -d '\r' | sed 's/\\,/,/g' | tr -d '\n' | sed 's/BEGIN/\n/g' | grep ':VEVENT' | sed 's/URL:/;/' | sed 's/SUMMARY:/;/' | sed 's/:VEVENTDTSTART;TZID=Europe.Paris://' | sed 's/^\([0-9][0-9][0-9][0-9]\)\([0-9][0-9]\)\([0-9][0-9]\)T\([0-9][0-9]\)\([0-9][0-9]\)/\1-\2-\3 \4:\5:/'i | sed 's/DTSTART:[0-9]*//g' > barco_events_last.csv
 
-rm "events_"$annee'-'$i".ical"
+rm -f "events_"$(date '+%Y-%m')".ical" "events_"$(date -d "+1 month" '+%Y-%m')".ical"
 
 sed -i 's/"//g' barco_events_last.csv barco_events_all.csv
 sed -i "s/'//g" barco_events_last.csv barco_events_all.csv
