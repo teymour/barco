@@ -10,7 +10,7 @@ notebook/recettes.py: notebook/recettes.ipynb
 notebook/evenements.py: notebook/evenements.ipynb
 	jupyter nbconvert --to script $^
 
-web/generated/adhesions_01_adhesion_des_derniers_jours.html: notebook/adhesions.py zelty/zelty.csv
+web/generated/adhesions_01_adhesion_des_derniers_jours.html: notebook/adhesions.py zelty/zelty.csv events/barco_events_all.csv
 	python notebook/adhesions.py
 web/generated/adhesions_02_adhesion_par_mois.html: web/generated/adhesions_01_adhesion_des_derniers_jours.html
 web/generated/adhesions_03_adhesion_par_an.html: web/generated/adhesions_01_adhesion_des_derniers_jours.html
@@ -27,7 +27,7 @@ web/generated/evenements_01_events_par_semaine.html: notebook/evenements.py even
 	python notebook/evenements.py
 web/generated/evenements_02_events_mensuels_par_an.html: web/generated/evenements_01_events_par_semaine.html
 web/generated/evenements_03_events_par_an.html: web/generated/evenements_01_events_par_semaine.html
-web/generated/recettes_01_ca_par_categories_et_an.html: notebook/recettes.py zelty/zelty.csv
+web/generated/recettes_01_ca_par_categories_et_an.html: notebook/recettes.py zelty/zelty.csv events/barco_events_all.csv
 	python notebook/recettes.py
 web/generated/recettes_02_ca_par_produits_12_mois.html: web/generated/recettes_01_ca_par_categories_et_an.html
 web/generated/recettes_03_ca_total_par_an.html: web/generated/recettes_01_ca_par_categories_et_an.html
