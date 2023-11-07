@@ -20,10 +20,11 @@ rm -f "events_"$(date '+%Y-%m')".ical" "events_"$(date -d "+1 month" '+%Y-%m')".
 sed -i 's/"//g' barco_events_last.csv barco_events_all.csv
 sed -i "s/'//g" barco_events_last.csv barco_events_all.csv
 sed -i 's/DTSTART:[0-9]*//g' barco_events_last.csv barco_events_all.csv
+sed -i 's/T010000T010000//g' barco_events_last.csv barco_events_all.csv
 
 touch barco_events_all.csv
 diff barco_events_last.csv barco_events_all.csv | grep '^<'
 
-cat barco_events_last.csv barco_events_all.csv | grep -v "date;titre;url" | sed 's/T010000T010000//' | sort -u -t ';' -k 3,3 | sort > barco_events_all.csv.tmp
+cat barco_events_last.csv barco_events_all.csv | grep -v "date;titre;url" | sort -u -t ';' -k 3,3 | sort > barco_events_all.csv.tmp
 echo "date;titre;url" > barco_events_all.csv
 cat barco_events_all.csv.tmp >> barco_events_all.csv
