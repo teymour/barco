@@ -105,4 +105,4 @@ sed -i 's/;$//' baristas.csv
 sed -i 's/;;$/;/' baristas.csv
 sed -i 's/\([0-9]\)[^0-9;]*;$/\1/' baristas.csv
 
-rm -f 'events_'$annee'-'$i'-01.ical'
+rm -f 'events_'$annee'-'$(date +%m)'-01.ical'
