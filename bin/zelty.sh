@@ -54,11 +54,11 @@ find . -newer /tmp/zelty.$$ -name '*json' | while read json ; do
 done
 rm /tmp/zelty.$$
 
-echo "date;order uuid;pid;produit;price;category" > zelty.csv
+echo "date;order uuid;pid;produit;price;tva;category" > zelty.csv
 ls 20*csv | while read csv ; do
 	tail -n +2 $csv | grep '[0-9]'
 done >> zelty.csv
 #missing data
 for missing in 2020-03 2020-04 2020-05 2020-11 2020-12 2021-01 2021-02 2021-03 2021-04 2021-08; do
-	echo $missing"-01;000000-00000000-00000000-00000000;0;Bière;0;Bière - pression"
+	echo $missing"-01;000000-00000000-00000000-00000000;0;Bière;0;0;Bière - pression"
 done >> zelty.csv
