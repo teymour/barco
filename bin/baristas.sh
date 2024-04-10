@@ -109,10 +109,10 @@ awk -F ';' '{print $3}' baristas.csv  | sort -u | grep '^[^ ][^ ][^ ]* [^ ]*[^ ]
 sed -i -f /tmp/nom_barista.$$.sed baristas.csv
 cat baristas.csv | awk -F ';' '{if ($4) print "s/"$3";$/"$3";"$4"/"}'  > /tmp/tel_barista.$$.sed
 sed -i -f /tmp/tel_barista.$$.sed baristas.csv
-cat baristas.csv | awk -F ';' '{print $3";"$4}' | grep '[0-9]$' | sort | uniq -c | sed 's/^ *//' | sed 's/ /;/' | awk -F ';' '{printf("%s;%05d;%s\n", $3, $1, $2)}' | sort -r  | awk -F ';' '{if (! vu[$1]) { print("s/;[^;]*;"$1"$/;"$3";"$1); vu[$1] = $3" "$1;  }  ; } '  > /tmp/tel2nom_barista.$$.sed
+cat baristas.csv | awk -F ';' '{print $3";"$4}' | grep '[0-9]$' | sort | uniq -c | sed 's/^ *//' | sed 's/ /;/' | awk -F ';' '{printf("%s;%05d;%s\n", $3, $1, $2)}' | sort -r  | awk -F ';' '{if (! vu[$1]) { print("s/;[^;]*;"$1"$/;"$3";"$1"/"); vu[$1] = $3" "$1;  }  ; } '  > /tmp/tel2nom_barista.$$.sed
 sed -i -f /tmp/tel2nom_barista.$$.sed baristas.csv
 
-cat baristas.csv  | awk -F ';' '{if (! vu[$4] && $4) { print $0";premier service"; vu[$4] = $4 } else {print $0} ; }' > baristas.premier.csv
+cat baristas.csv  | grep -v ANNULE | awk -F ';' '{key=$4$3 ; if (! vu[key] && key) { print $0";premier service"; vu[key] = key } else {print $0} ; }'  > baristas.premier.csv
 mv baristas.premier.csv baristas.csv
 
 rm -f 'events_'$annee'-'$(date +%m)'-01.ical' /tmp/tel_barista.$$.sed /tmp/nom_barista.$$.sed /tmp/tel2nom_barista.$$.sed
