@@ -1,5 +1,11 @@
 <?php $prefix=''; if (isset($_GET['annee'])){$prefix=$_GET['annee'].'_';} ?>
 <?php $htmlargs=''; if (isset($_GET['annee'])){$htmlargs="?annee=".$_GET['annee'];} ?>
+<?php $annee=''; if (isset($_GET['annee'])){$annee=" ".$_GET['annee'];} ?>
+<?php if ($prefix && !file_exists('generated/'.$prefix.'adhesions_03_adhesion_par_an.html')){
+        header("Location: ./\n");
+        exit;
+}
+?>
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="fr"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -42,7 +48,7 @@
     </div>
 
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-      <h1 class="display-4 fw-normal text-body-emphasis"><a href="index.php" class="link-underline link-underline-opacity-0 link-dark">Tableaux de bord</a></h1>
+      <h1 class="display-4 fw-normal text-body-emphasis"><a href="index.php" class="link-underline link-underline-opacity-0 link-dark">Tableaux de bord<?php echo $annee ; ?></a></h1>
       <p class="fs-5 text-body-secondary">Des données pour suivre l'activité du bar commun</p>
     </div>
   </header>

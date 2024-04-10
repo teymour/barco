@@ -2,7 +2,7 @@
 	<div class="col-12">
 	  <div class="card mb-4 rounded-3 shadow-sm">
 		<div class="card-header py-3">
-		  <h4 class="my-0 fw-normal text-center">Les services</h4>
+		  <h4 class="my-0 fw-normal text-center">Les services<?php echo $annee ; ?></h4>
 		</div>
 		<div class="card-body">
 			<div class="row graphcard">
@@ -104,6 +104,6 @@
   	  </div>
   <div class="card-footer text-body-secondary">
   	<div class="px-5 float-begin">
-  	<a href="index.php" class="btn btn-primary">&lt;&lt Retour à la synthèse</a>
+  	<a href="index.php<?php echo $htmlargs; ?>" class="btn btn-primary">&lt;&lt Retour à la synthèse</a>
   	</div>
 <?php include('include/footer.php');

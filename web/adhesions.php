@@ -2,7 +2,7 @@
 	<div class="col-12">
 	  <div class="card mb-4 rounded-3 shadow-sm">
 		<div class="card-header py-3">
-		  <h4 class="my-0 fw-normal text-center">Les adhésions</h4>
+		  <h4 class="my-0 fw-normal text-center">Les adhésions<?php echo $annee ; ?></h4>
 		</div>
 		<div class="card-body">
 		  <div class="row cardgraph">
