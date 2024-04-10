@@ -9,7 +9,7 @@
   			<h2 id="Les_évènements_par_semaine">Les évènements par semaine <a href="#Les_évènements_par_semaine" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
 			<center>
 			<div class="graph">
-			<?php include("generated/evenements_01_events_par_semaine.html"); ?>
+			<?php include("generated/".$prefix."evenements_01_events_par_semaine.html"); ?>
 			</div>
 			<p class="explication">Le nombre d'évènements par semaine</p>
 			<p class="text-muted">Données : site du <a href="https://www.lebarcommun.fr/events/">bar commun</a></p>
@@ -19,7 +19,7 @@
   			<h2 id="Les_évènements_sur_l'année">Les évènements sur l'année <a href="#Les_évènements_sur_l" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
 			<center>
 			<div class="graph">
-			<?php include("generated/evenements_02_events_mensuels_par_an.html"); ?>
+			<?php include("generated/".$prefix."evenements_02_events_mensuels_par_an.html"); ?>
 			</div>
 			<p class="explication">Le nombre d'évènements par mois sur 12 mois glissant</p>
 			<p class="text-muted">Données : site du <a href="https://www.lebarcommun.fr/events/">bar commun</a></p>
@@ -29,7 +29,7 @@
 		  <h2 id="Les_évènements_par_semaine">Les évènements par an <a href="#Les_évènements_par_semaine" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
 		  	<center>
 			<div class="graph">
-			<?php include("generated/evenements_03_events_par_an.html"); ?>
+			<?php include("generated/".$prefix."evenements_03_events_par_an.html"); ?>
 			</div>
 			<p class="explication">Le nombre d'évènements par an</p>
 			<p class="text-muted">Données : site du <a href="https://www.lebarcommun.fr/events/">bar commun</a></p>
@@ -44,6 +44,6 @@
 	</div>
 <div class="card-footer text-body-secondary">
   <div class="px-5 float-begin">
-  <a href="index.php" class="btn btn-primary">&lt;&lt Retour à la synthèse</a>
+  <a href="index.php<?php echo $htmlargs; ?>" class="btn btn-primary">&lt;&lt Retour à la synthèse</a>
   </div>
 <?php include('include/footer.php');

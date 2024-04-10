@@ -1,3 +1,5 @@
+<?php $prefix=''; if (isset($_GET['annee'])){$prefix=$_GET['annee'].'_';} ?>
+<?php $htmlargs=''; if (isset($_GET['annee'])){$htmlargs="?annee=".$_GET['annee'];} ?>
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="fr"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">

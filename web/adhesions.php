@@ -9,7 +9,7 @@
 			<h2 id="Adhésions_les_derniers_jours">Adhésions les derniers jours <a href="#Adhésions_les_derniers_jours" class="btn-link text-secondary opacity-25" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
 			<center>
 			<div class="graph">
-			<?php include("generated/adhesions_01_adhesion_des_derniers_jours.html"); ?>
+			<?php include("generated/".$prefix."adhesions_01_adhesion_des_derniers_jours.html"); ?>
 			</div>
 			<p class="explication">Nombre d'adhésions payées par jour sur 30 jours glissant</p>
 			<p class="text-muted">Données : zelty</p>
@@ -19,7 +19,7 @@
 			<h2 id="Adhésions_par_mois">Adhésions par mois <a href="#Adhésions_par_mois" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
 			<center>
 			<div class="graph">
-			<?php include("generated/adhesions_02_adhesion_par_mois.html"); ?>
+			<?php include("generated/".$prefix."adhesions_02_adhesion_par_mois.html"); ?>
 			</div>
 			<p class="explication">Nombre d'adhésions payées par mois. Les couleurs représentent les différentes années</p>
 			<p class="text-muted">Données : zelty</p>
@@ -29,7 +29,7 @@
 		  <h2 id="Adhésions_par_an">Adhésions par an <a href="#Adhésions_par_an" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
 		  	<center>
 			<div class="graph">
-			<?php include("generated/adhesions_03_adhesion_par_an.html"); ?>
+			<?php include("generated/".$prefix."adhesions_03_adhesion_par_an.html"); ?>
 			</div>
 			<p class="explication">Nombre d'adhésions payées par an pour chaque année civile (rouge), comparé aux nombres d'adhésions payées entre le 1er janvier et le dernier jour d'ouverture du bar pour chaque année civile (bleu).</p>
 			<p class="text-muted">Données : zelty</p>
@@ -44,7 +44,7 @@
 	  </div>
 <div class="card-footer text-body-secondary">
 	<div class="px-5 float-begin">
-	<a href="index.php" class="btn btn-primary">&lt;&lt Retour à la synthèse</a>
+	<a href="index.php<?php echo $htmlargs; ?>" class="btn btn-primary">&lt;&lt Retour à la synthèse</a>
 	</div>
 
 <?php include('include/footer.php');

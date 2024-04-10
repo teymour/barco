@@ -17,6 +17,8 @@ def fig_save_or_show(fig, file, year = ''):
     else:
         if year:
             year += '_'
+        else:
+            year = ''
         fig.write_html(os.path.dirname(os.path.realpath(__file__))+"/../web/generated/%s%s.html" % (year, file),include_plotlyjs=False)
 
 def true_or_html_to_file(table, file, year = ''):
@@ -25,6 +27,8 @@ def true_or_html_to_file(table, file, year = ''):
     else:
         if year:
             year += '_'
+        else:
+            year = ''
         with open(os.path.dirname(os.path.realpath(__file__))+"/../web/generated/%s%s.html" % (year, file), 'w') as fo:
            fo.write(table.to_html())
         return False
