@@ -107,7 +107,7 @@ sed -i 's/\([0-9]\)[^0-9;]*;$/\1/' baristas.csv
 
 awk -F ';' '{print $3}' baristas.csv  | sort -u | grep '^[^ ][^ ][^ ]* [^ ]*[^ ][^ ]$'   | awk -F ';' '{print "s/"$1"[^;]*/"$1"/i"}'  > /tmp/nom_barista.$$.sed
 sed -i -f /tmp/nom_barista.$$.sed baristas.csv
-cat baristas.csv | awk -F ';' '{if ($4) print "s/"$3";$/"$3";"$4"/"}'  > /tmp/tel_barista.$$.sed
+cat baristas.csv | awk -F ';' '{if ($4) print "s/"$3";$/"$3";"$4"/"}' | sort -u > /tmp/tel_barista.$$.sed
 sed -i -f /tmp/tel_barista.$$.sed baristas.csv
 cat baristas.csv | awk -F ';' '{print $3";"$4}' | grep '[0-9]$' | sort | uniq -c | sed 's/^ *//' | sed 's/ /;/' | awk -F ';' '{printf("%s;%05d;%s\n", $3, $1, $2)}' | sort -r  | awk -F ';' '{if (! vu[$1]) { print("s/;[^;]*;"$1"$/;"$3";"$1"/"); vu[$1] = $3" "$1;  }  ; } '  > /tmp/tel2nom_barista.$$.sed
 sed -i -f /tmp/tel2nom_barista.$$.sed baristas.csv
