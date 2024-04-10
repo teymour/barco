@@ -98,7 +98,7 @@
 		    <div class="row graphcard">
 			  <h2 id="Téléchargements">Téléchargements <a href="#Téléchargements" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
 			  <ul class="px-5">
-				  <li><a href="data/services.csv">Tableur des services (format csv)</a></li>
+				  <li><a href="data/baristas.csv">Tableur des services (format csv)</a></li>
 			  </ul>
 		  </div>
   	  </div>
