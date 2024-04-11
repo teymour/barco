@@ -34,6 +34,50 @@ web/generated/recettes_03_ca_total_par_an.html: web/generated/recettes_01_ca_par
 web/generated/recettes_04_ca_quotidien_12_mois.html: web/generated/recettes_01_ca_par_categories_et_an.html
 web/generated/recettes_06_benefice.html: web/generated/recettes_01_ca_par_categories_et_an.html
 
+2017:
+	LIMIT_YEAR=2017 python notebook/baristas.py
+	LIMIT_YEAR=2017 python notebook/recettes.py
+	LIMIT_YEAR=2017 python notebook/adhesions.py
+	LIMIT_YEAR=2017 python notebook/evenements.py
+
+2018:
+	LIMIT_YEAR=2018 python notebook/baristas.py
+	LIMIT_YEAR=2018 python notebook/recettes.py
+	LIMIT_YEAR=2018 python notebook/adhesions.py
+	LIMIT_YEAR=2018 python notebook/evenements.py
+
+2019:
+	LIMIT_YEAR=2019 python notebook/baristas.py
+	LIMIT_YEAR=2019 python notebook/recettes.py
+	LIMIT_YEAR=2019 python notebook/adhesions.py
+	LIMIT_YEAR=2019 python notebook/evenements.py
+
+2020:
+	LIMIT_YEAR=2020 python notebook/baristas.py
+	LIMIT_YEAR=2020 python notebook/recettes.py
+	LIMIT_YEAR=2020 python notebook/adhesions.py
+	LIMIT_YEAR=2020 python notebook/evenements.py
+
+2021:
+	LIMIT_YEAR=2021 python notebook/baristas.py
+	LIMIT_YEAR=2021 python notebook/recettes.py
+	LIMIT_YEAR=2021 python notebook/adhesions.py
+	LIMIT_YEAR=2021 python notebook/evenements.py
+
+2022:
+	LIMIT_YEAR=2022 python notebook/baristas.py
+	LIMIT_YEAR=2022 python notebook/recettes.py
+	LIMIT_YEAR=2022 python notebook/adhesions.py
+	LIMIT_YEAR=2022 python notebook/evenements.py
+
+2023:
+	LIMIT_YEAR=2023 python notebook/baristas.py
+	LIMIT_YEAR=2023 python notebook/recettes.py
+	LIMIT_YEAR=2023 python notebook/adhesions.py
+	LIMIT_YEAR=2023 python notebook/evenements.py
+
+annees: 2023 2022 2021 2020 2019 2018 2017
+
 update:
 	bash bin/zelty.sh
 	bash bin/baristas.sh
