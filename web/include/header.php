@@ -1,7 +1,7 @@
 <?php $prefix=''; if (isset($_GET['annee'])){$prefix=$_GET['annee'].'_';} ?>
 <?php $htmlargs=''; if (isset($_GET['annee'])){$htmlargs="?annee=".$_GET['annee'];} ?>
 <?php $annee=''; if (isset($_GET['annee'])){$annee=" ".$_GET['annee'];} ?>
-<?php if ($prefix && !file_exists('generated/'.$prefix.'adhesions_03_adhesion_par_an.html')){
+<?php if ($prefix && !file_exists('generated/'.$prefix.'baristas_05_nb_services_réalisés_par_mois.html')){
         header("Location: ./\n");
         exit;
 }

@@ -76,5 +76,12 @@
         </div>
       </div>
 
+      <div class="col-12">
+          Archives des années précédentes :
+          <?php for($y = 2017 ; file_exists('generated/'.$y.'_baristas_05_nb_services_réalisés_par_mois.html'); $y++): ?>
+              <a href="?annee=<?php echo $y; ?>"><?php echo $y; ?></a>
+          <?php endfor; ?>
+      </div>
+
     </div>
 <?php include('include/footer.php');
