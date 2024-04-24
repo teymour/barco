@@ -13,7 +13,7 @@ for (( annee = 2021 ; annee <= $(date '+%Y') ; annee++ )) ; do
 	done
 done
 
-cat "events_"*".ical" | grep -E '^URL|^SUMMARY|^DTSTART|^BEGIN:VEVENT' | tr -d '\r' | sed 's/\\,/,/g' | tr -d '\n' | sed 's/BEGIN/\n/g' | grep ':VEVENT' | sed 's/URL:/;/' | sed 's/SUMMARY:/;/' | sed 's/:VEVENTDTSTART;TZID=Europe.Paris://' | sed 's/^\([0-9][0-9][0-9][0-9]\)\([0-9][0-9]\)\([0-9][0-9]\)T\([0-9][0-9]\)\([0-9][0-9]\)/\1-\2-\3 \4:\5:/'i | sed 's/DTSTART:[0-9]*//g' > barco_events_last.csv
+cat "events_"*".ical" | grep -E '^URL|^SUMMARY|^DTSTART|^BEGIN:VEVENT' | tr -d '\r' | sed 's/\\,/,/g' | tr -d '\n' | sed 's/BEGIN/\n/g' | grep ':VEVENT' | sed 's/URL:/;/' | sed 's/SUMMARY:/;/' | sed 's/:VEVENTDTSTART;TZID=Europe.Paris://' | sed 's/^\([0-9][0-9][0-9][0-9]\)\([0-9][0-9]\)\([0-9][0-9]\)T\([0-9][0-9]\)\([0-9][0-9]\)/\1-\2-\3 \4:\5:/'i | sed 's/DTSTART:[0-9]*//g' | awk -F ';' '{print $1";"$2";"$3";"$3$1}' | sort -u > barco_events_last.csv
 
 rm -f "events_"$(date '+%Y-%m')".ical" "events_"$(date -d "+1 month" '+%Y-%m')".ical"
 
@@ -21,10 +21,13 @@ sed -i 's/"//g' barco_events_last.csv barco_events_all.csv
 sed -i "s/'//g" barco_events_last.csv barco_events_all.csv
 sed -i 's/DTSTART:[0-9]*//g' barco_events_last.csv barco_events_all.csv
 sed -i 's/T010000T010000//g' barco_events_last.csv barco_events_all.csv
+sed -i 's/ ..:..:..$//' barco_events_last.csv barco_events_all.csv
+sort -u barco_events_last.csv > barco_events_last.csv.new ; mv barco_events_last.csv.new barco_events_last.csv
+sort -u barco_events_all.csv > barco_events_all.csv.new ; mv barco_events_all.csv.new barco_events_all.csv
 
 touch barco_events_all.csv
 diff barco_events_last.csv barco_events_all.csv | grep '^<'
 
-cat barco_events_last.csv barco_events_all.csv | grep -v "date;titre;url" | sort -u -t ';' -k 3,3 | sort > barco_events_all.csv.tmp
-echo "date;titre;url" > barco_events_all.csv
+cat barco_events_last.csv barco_events_all.csv | grep -v "date;titre;url" | sort -u -t ';' -k 4,4 | sort -u > barco_events_all.csv.tmp
+echo "date;titre;url;id" > barco_events_all.csv
 cat barco_events_all.csv.tmp >> barco_events_all.csv
