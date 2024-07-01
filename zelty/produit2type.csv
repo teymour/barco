@@ -26,8 +26,10 @@ Apéro Cantal;Food - salé
 Apex - DEMI;Bière - pression
 Apex - GALOPIN;Bière - pression
 Apex - PINTE;Bière - pression
+Archipel - Kombucha;soft - soda
 Archipel - Kombucha feuille de figue;Soft - soda
 Assommoir;Bière - bouteille
+Athelic - All Out Stout;Bière - bouteille
 AUTRE       - 12.5cl;Bière - pression
 AUTRE       - 25cl;Bière - pression
 AUTRE - 25cl;Bière - pression
@@ -35,16 +37,22 @@ AUTRE       - 50cl;Bière - pression
 Autres - DEMI;Bière - pression
 Autres - GALOPIN;Bière - pression
 Autres - PINTE;Bière - pression
+Azvex - False Color;Bière - bouteille
 Baba Berlin;Bière - bouteille
 Bapbap - Bang Bang;Bière - sans alcool
 BapBap - Chimère Rouge;Bière - bouteille
 BapBap - Opale Pinot Noir;Bière - bouteille
 Barco - Bière Commune Bt;Bière - bouteille
+BAVIK - 12.5cl;Bière - pression
+BAVIK - 25cl;Bière - pression
+BAVIK - 50cl;Bière - pression
 Bavik  - DEMI;Bière - pression
 Bavik  - GALOPIN;Bière - pression
 Bavik  - PINTE;Bière - pression
-Beaujolais;Vin
 Beaujolais du moment;Vin
+Beaujolais nouveau Nez;Vin
+Beaujolais;Vin
+Bendorf - A l'ombre des pensées;Bière - bouteille
 Bendorf - Eurodance;Bière - bouteille
 Bendorf - Maison Citoyenne;Bière - bouteille
 Bendorf - Retour du givre;Bière - bouteille
@@ -69,6 +77,7 @@ Black Pig - PINTE;Bière - pression
 Blanc/Bouteille (Verre);Vin
 Blanc/Cubi - Pichet - 50cl;Vin
 Blanc/Cubi (Verre);Vin
+BLANCHE - 12.5cl;Bière - pression
 BLANCHE - 25cl;Bière - pression
 BLANCHE - 50cl;Bière - pression
 Blanche - DEMI;Bière - pression
@@ -85,15 +94,16 @@ BL - Cubi - Verre;Vin
 Blech Brut – Who Will Buy;Bière - bouteille
 BL - Gournier Cevennes - Pichet 50cl;Vin
 BL - Gournier Cevennes - Verre;Vin
-BL - Granite - L'Ecu;Vin
 BL - Granite - l'Ecu - Bouteille;Vin
 BL - Granite - l'Ecu - Muscadet;Vin
 BL - Granite - L'Ecu - Verre;Vin
+BL - Granite - L'Ecu;Vin
 BL - Hautes Terres;Vin
 BL - La Java des Entrefaux - Verre;Vin
 BL - La Java Viognier;Vin
 BL - Les Agudes - Verre;Vin
 BL - Les Fresnettes - Chateau Targé;Vin
+BL - Les Perrières - Bouteille;Vin
 BL - Les Perrières - Verre;Vin
 BL - Les Pierrères - Bouteille;Vin
 BL - Les Pierrères - Verre;Vin
@@ -110,6 +120,7 @@ BL - Pommia Bourgogne Blanc - Bouteille;Vin
 BL - Pommia Bourgogne blanc - Verre;Vin
 BL - R. Dufaitre - Bouteille;Vin
 BL - R. Dufaitre - Verre;Vin
+BL - Saumur - Bouteille;Vin
 BL - Saumur - Verre;Vin
 Boisson coutant;Bière - bouteille
 Bon dégustation vin;Vin
@@ -121,7 +132,9 @@ BOS Pêche;Soft - soda
 Boundary - Existential Angst;Bière - bouteille
 Boundary - Toutes;Bière - bouteille
 Boundary - Very Unique;Bière - bouteille
+Bouteille vin standard;Vin
 Braukunste – Uitbuiken;Bière - bouteille
+Brewski - Frosty;Bière - bouteille
 Brownie;Food - sucré
 BTe Bière Commune;Bière - bouteille
 Café Crème;Café
@@ -131,20 +144,22 @@ Cake salé;Food - sucré
 C.Allan - Agent Provocateur - 33cl;Bière - bouteille
 C.Allan - Psychédélia - 33cl;Bière - bouteille
 Cambier - Mongy Saison Bio;Bière - bouteille
+Cambier - NewFrenchIPA;ière - bouteille
 Cambier - New French IPA;Bière - bouteille
 Cambier - Reserva;Bière - bouteille
+Cambier - Sabro Tonka;Bière - bouteille
 Cambier x Piggy - Sabro Tonka;Bière - bouteille
 Camomille;Thé - infusion
 Can coutant;Bière - bouteille
 Cascadeuse;Bière - bouteille
 Cerberus;Bière - bouteille
 ChariTea black;Soft - soda
-ChariTea;Soft - soda
 ChariTea green;Soft - soda
 ChariTea maté;Soft - soda
 ChariTea Maté;Soft - soda
 ChariTea mint;Soft - soda
 ChariTea red;Soft - soda
+ChariTea;Soft - soda
 ChariTea Thé Noir;Soft - soda
 ChariTea Thé Rouge;Soft - soda
 ChariTea Thé Vert;Soft - soda
@@ -153,19 +168,27 @@ Chateau Rouge;Vin
 CH - Champagne Devaux;Vin
 CH - Champagne Magelie;Vin
 Choco avoine;Thé - infusion
-Chocolat;Thé - infusion
 Chocolat lait végétal;Thé - infusion
+Chocolat;Thé - infusion
 Chorizo;Food - salé
+Cide extra-brut bio - Appie;Cidre
+Cide houblonné bio - Appie;Cidre
 Cidre - bouteille 33cl;Cidre
+Cidre brut bio - Le P'tit Fausset;Cidre
+Cidre - Vergers d'Ohain;Cidre
 Cidre - Verre;Cidre
 Citron Vert LemonAid;Soft - soda
 Classic Chai;Thé - infusion
 Coconino - Moonlight;Bière - bouteille
 Colonel Moutarde;Bière - bouteille
 Communard Cassis;Vin
-Communard Mûre;Vin
 Communard Mûres;Vin
+Communard Mûre;Vin
+Commune Louve - 12.5cl;Bière - pression
+Commune Louve - 25cl;Bière - pression
+Commune Louve - 50cl;Bière - pression
 Cookie;Food - sucré
+Craig Allan - Agent Modérateur;Bière - sans alcool
 Craig Allan - Cuvée d'Oscar;Bière - bouteille
 Crazy IPA - DEMI;Bière - pression
 Crazy IPA - GALOPIN;Bière - pression
@@ -174,8 +197,8 @@ Crème;Café
 Crème vegetal;Café
 Crème végétal;Café
 Dalva;Bière - bouteille
-Darjeeling;Thé - infusion
 Darjeeling GFOP;Thé - infusion
+Darjeeling;Thé - infusion
 Débauche - Black Ale India;Bière - bouteille
 Débauche - Cognac Barrel;Bière - bouteille
 Débauche - Cute & Sober;Bière - bouteille
@@ -190,8 +213,8 @@ Dilettante- Sale Gose;Bière - bouteille
 Dilettante - Serge;Bière - bouteille
 Domaine de la Bergerie - Anjou Blanc Sous la Tonnelle 2015 - Bouteille;Vin
 Double Expresso;Café
-Dr meuh;Soft - soda
 Dr Meuh Ginger;Soft - soda
+Dr meuh;Soft - soda
 Dry Stout;Bière - bouteille
 Earl Grey;Thé - infusion
 Eau de Perrier;Soft - eau
@@ -202,15 +225,19 @@ English Breakfast;Thé - infusion
 Ephémère - DEMI;Bière - pression
 Ephémère - GALOPIN;Bière - pression
 Ephémère - PINTE;Bière - pression
-Ernestine - DEMI;Bière - pression
 Ernestine;Bière - bouteille
+Ernestine - DEMI;Bière - pression
 Ernestine - GALOPIN;Bière - pression
 Ernestine - PINTE;Bière - pression
 Etoile du Nord;Bière - bouteille
 Être - Cerberus;Bière - bouteille
+Être - Chanoir;Bière - bouteille
 Etre - Cruelle;Bière - bouteille
+Être - Ipanema;Bière - bouteille
+Être - Linneaus;Bière - bouteille
 Etre - Linneaus;Bière - bouteille
 Etre - Oliphant;Bière - bouteille
+Être - Parum osculum;Bière - bouteille
 Etre - Saison De Magellan;Bière - bouteille
 Être - Salamandra;Bière - bouteille
 Être - Triplex Coffea Dementia;Bière - bouteille
@@ -222,6 +249,7 @@ Express - GALOPIN;Bière - pression
 Expresso;Café
 Express - PINTE;Bière - pression
 Fauve - 400coups;Bière - bouteille
+Fauve - French Bisou;Bière - bouteille
 Fauve - Rejaillir le feu;Bière - bouteille
 Fauve - Sous le Noir Firmament;Bière - bouteille
 Féond;Bière - bouteille
@@ -231,6 +259,7 @@ Fritons;Food - salé
 Fromage (1/2 Planche);Food - salé
 Fromage (Planche);Food - salé
 Fruit de la Passion LemonAid;Soft - soda
+Galibot - IPL;Bière - bouteille
 GdO - Bonita;Bière - bouteille
 GdO - Boucané;Bière - bouteille
 GdO - Brutal;Bière - bouteille
@@ -248,8 +277,8 @@ GdO - Phenix;Bière - bouteille
 GdO - Succube;Bière - bouteille
 GdO - Yasamin;Bière - bouteille
 Gd Paris - A l'ouest;Bière - bouteille
-Gd Paris - Citra Galactique Can;Bière - pression
 Gd Paris - Citra Galactique;Bière - pression
+Gd Paris - Citra Galactique Can;Bière - pression
 Gd Paris - Colorado Dream;Bière - bouteille
 Gd Paris - Ground Concombre;Bière - bouteille
 Gd Paris - High & Better;Bière - bouteille
@@ -267,10 +296,15 @@ Gd Paris - Wrath of the Math;Bière - bouteille
 Ginette - DEMI;Bière - pression
 Ginette - PINTE;Bière - pression
 Ginger LemonAid;Soft - soda
+Goutte d'or - Brutal;Bière - bouteille
+Goutte d'or - La Chapelle;Bière - bouteille
+Goutte d'or - Petit Grain;Bière - bouteille
 Grande Assiette;Food - salé
+Grand Paris - Chef  un canon;Bière - bouteille
 Grand Paris - Colorado Dream;Bière - bouteille
-Herbe bleue - DEMI;Bière - pression
+Grand Paris - Old alliance;Bière - bouteille
 Herbe Bleue;Bière - bouteille
+Herbe bleue - DEMI;Bière - pression
 Herbe Bleue - PINTE;Bière - pression
 Hespebay - Bergamonk;Bière - bouteille
 Hespebay - Brume Kong;Bière - bouteille
@@ -278,7 +312,9 @@ Hespebay - Dada Doré;Bière - bouteille
 Hespebay - Ocean Bey;Bière - bouteille
 Hespebay - Saison Gégé;Bière - bouteille
 Hoppy Road - Ashiitake;Bière - bouteille
+Hoppy Road - Belleville Remix;Bière - bouteille
 HoppyRoad - Belleville Remix;Bière - bouteille
+Hoppy Road - Black Vortex;Bière - bouteille
 HoppyRoad - Black Vortex;Bière - bouteille
 HoppyRoad - Flamingo;Bière - bouteille
 HoppyRoad - Peekaboo;Bière - bouteille
@@ -304,8 +340,8 @@ Jus de Fruit;Soft - jus
 Jus de pomme;Soft - jus
 Jus de raisin rouge;Soft - jus
 Jus de tomate;Soft - jus
-Jus d'orange;Soft - jus
 Jus d'orange pressé;Soft - jus
+Jus d'orange;Soft - jus
 Jus pomme-ananas;Soft - jus
 Jus pomme-gingembre;Soft - jus
 Jus pomme-orange;Soft - jus
@@ -328,8 +364,8 @@ La Soif du Carrier;Bière - bouteille
 Lemonaid citron vert;Soft - soda
 Lemonaid fruit de la passion;Soft - soda
 Lemonaid gingembre;Soft - soda
-LemonAid;Soft - soda
 Lemonaid orange sanguine;Soft - soda
+LemonAid;Soft - soda
 Les petits;Bière - bouteille
 Love craft Caladan;Bière - bouteille
 Love craft Distorsion;Bière - bouteille
@@ -339,11 +375,11 @@ Malpolon - Maitre Iodé;Bière - bouteille
 Malpolon - Quart de rouge;Bière - bouteille
 Malpolon - Rye de Smoke;Bière - bouteille
 Malpolon - Saison Maison#1;Bière - bouteille
-Meringue IPA;Bière - bouteille
 Meringue;Food - sucré
-Meuh Cola;Soft - soda
+Meringue IPA;Bière - bouteille
 Meuh Cola pirate;Soft - soda
 Meuh Cola roseline;Soft - soda
+Meuh Cola;Soft - soda
 Meuh Cola transparent;Soft - soda
 Miimosa;Thé - infusion
 MONACO - 25cl;Bière - pression
@@ -358,19 +394,21 @@ Myrha - DEMI;Bière - pression
 Myrha - PINTE;Bière - pression
 Noisette;Café
 Noisette végétal;Café
+Oddity - He got the tunes;Bière - bouteille
 Oliphant - DEMI;Bière - pression
 Oliphant - PINTE;Bière - pression
-Orange;Soft - jus
 Orange Sanguine LemonAid;Soft - soda
+Orange;Soft - jus
 OrBitter - DEMI;Bière - pression
 OrBitter - PINTE;Bière - pression
 Outland - Dad Stout;Bière - bouteille
 Outland - Prima Stagione;Bière - bouteille
-Pack 4 Bière Commune / Ecocup;Bière - bouteille
 Pack 4 Bière Commune;Bière - bouteille
+Pack 4 Bière Commune / Ecocup;Bière - bouteille
 Pain d'épices (3 tranches);Food - sucré
 Pain d'épices (4 tranches);Food - sucré
 PANACHE - 25cl;Bière - pression
+PANACHE - 50cl;Bière - pression
 Panaché - DEMI;Bière - pression
 Panaché - PINTE;Bière - pression
 Paris Cola - 25cl;Soft - soda
@@ -378,9 +416,11 @@ Patakrep;Bière - bouteille
 Paté Campagne;Food - salé
 Paté de Campagne;Food - salé
 Pâté de Campagne;Food - salé
+Pâté/Fritons;Food - salé
 Patisserie Orientale;Food - sucré
 PBW - DEMI;Bière - pression
 PBW - PINTE;Bière - pression
+Pétillant sans alcool;Bière sans alcool
 Petite Pigalle;Bière - bouteille
 Petite Princesse - DEMI;Bière - pression
 Petite Princesse - PINTE;Bière - pression
@@ -390,11 +430,13 @@ Piggy - Eroica;Bière - bouteille
 Piggy - Even More Thirsty;Bière - bouteille
 Piggy - Gold Coast;Bière - bouteille
 Piggy - Gose Fumée;Bière - bouteille
+Piggy - Lager time;Bière - bouteille
 Piggy - Oreka;Bière - bouteille
 Piggy - Perle Rare;Bière - bouteille
 Piggy - Pick Me Up;Bière - bouteille
 Piggy - Rebel Monk I;Bière - bouteille
 Piggy - Smoked Serie #1 IPA;Bière - bouteille
+Piggy - Smoked Serie #1 IPA fumée;Bière - bouteille
 Piggy - Smoked Serie #2 Gose Fumée;Bière - bouteille
 Piggy - Xmas Miracle;Bière - bouteille
 Pimp;Bière - bouteille
@@ -410,19 +452,25 @@ PL - Moon Boots;Bière - bouteille
 PL - My Darling Clementine;Bière - bouteille
 PL - Shiro;Bière - bouteille
 PMA;Bière - bouteille
+Põhjala - Prenzlauer 0;Bière - bouteille
+Põhjala - Tundra;Bière - bouteille
 Poire;Soft - jus
 Pomme-Ananas;Soft - jus
 Pomme-Cerise;Soft - jus
 Pomme-Orange;Soft - jus
-Pomme;Soft - jus
 Pomme-Rhubarbe;Soft - jus
-Popihn - Icauna can;Bière - bouteille
+Pomme;Soft - jus
 Popihn - Icauna;Bière - bouteille
+Popihn - Icauna can;Bière - bouteille
 Popihn Imp Baltic Porter Clémentine;Bière - bouteille
 Popihn - Test of permanent neipa;Bière - bouteille
+Pop Maté framboise;Soft - soda
+Pop Maté gingembre;Soft - soda
+Pop Maté original;Soft - soda
+Pravda - Lviv dark ale;Bière - bouteille
 Prosecco bouteille;Vin
-Prosecco;Vin
 Prosecco verre;Vin
+Prosecco;Vin
 Psychédélia - 75cl;Bière - bouteille
 Psychédélia;Bière - bouteille
 P'tite Maiz' - Zapoï;Bière - bouteille
@@ -447,8 +495,8 @@ RG - Chirouble D.Coquelet - Bouteille;Vin
 RG - Chirouble D.Coquelet - Verre;Vin
 RG - Cubi - Verre;Vin
 RG - Du Beur dans les Pinards Bouteille;Vin
-RG - Ermitage Pic St Loup;Vin
 RG - Ermitage Pic St Loup - Verre;Vin
+RG - Ermitage Pic St Loup;Vin
 RG - Estampes Coquelicot;Vin
 RG - Gournier Cevennes - Pichet 50cl;Vin
 RG - Gournier Cevennes - Verre;Vin
@@ -480,15 +528,19 @@ RG - XB 2018;Vin
 Rillettes de Porc;Food - salé
 Rillettes de Saumon;Food - salé
 Rillettes d'oie;Food - salé
+Rillettes;Food - salé
 Rillettes poisson;Food - salé
 Rillettes Porc;Food - salé
-Rillettes;Food - salé
 Rillettes Saumon;Food - salé
 Rooibos Fleur d’Oranger;Thé - infusion
 Rooibos Honeybush;Thé - infusion
 Rosé/Bouteille (Verre);Vin
+Rosé/Cubi - Pichet 50 cl;Vin
 Rosé/Cubi (Verre);Vin
 Rotten Christmas;Bière - bouteille
+Rouge/Bouteille (Verre);Vin
+Rouge/Cubi - Pichet 50 cl;Vin
+Rouge/Cubi (Verre);Vin
 Rouge Flamande;Bière - bouteille
 RS - Bouteille - Verre;Vin
 RS - Cubi - Verre;Vin
@@ -498,11 +550,15 @@ RS - Pic Saint Loup - Bouteille;Vin
 RS - Pic Saint Loup - Verre;Vin
 RS - Rosé de Cocagne - Bouteille;Vin
 RS - Rosé de Cocagne - Verre;Vin
+Sainte Cru - Barrique mécanique;Bière - bouteille
 Saint-Nectaire;Food - salé
 Saison Chemin de Fer;Bière - bouteille
 Saison De Magellan;Bière - bouteille
 Salamandra aux fruits;Bière - bouteille
 Salamandra;Bière - bouteille
+SANS ALCOOL - 12.5cl;Bière sans alcool
+SANS ALCOOL - 25cl;Bière sans alcool
+SANS ALCOOL - 50cl;Bière sans alcool
 Saucisse Séche;Food - salé
 Saucisse Sèche;Food - salé
 Shortbread;Bière - bouteille
@@ -513,6 +569,7 @@ Soeur de la Côte;Bière - bouteille
 Soft promo emporter;Soft - soda
 Spore - Apex;Bière - bouteille
 Spore Apex;Bière - bouteille
+Spore - Bouissé Sauvage;Bière - bouteille
 Spore - Coral;Bière - bouteille
 Spore Coral;Bière - bouteille
 Spore - Imago;Bière - bouteille
@@ -521,6 +578,7 @@ Spore - Saisonette;Bière - bouteille
 Spore - Saison Surette;Bière - bouteille
 Spore - Taheebo;Bière - bouteille
 Spore - Treis Tounya Framboise;Bière - bouteille
+Ste Cru - Santa crue micro ale 0 8%;Bière - bouteille
 Ste Cru - Santa crue micro ale 0,8%;Bière - bouteille
 Ste Cru – Santa Crüe Serie DIP + Dry Hopped Oatmeal IPA;Bière - bouteille
 Ste Cru - Soft Power;Bière - bouteille
@@ -535,11 +593,17 @@ Tartine;Food - sucré
 Thé - Infusion;Thé - infusion
 Ti-Lo - cidre brut AB;Cidre
 Ti-Lo - cidre IPA AB;Cidre
+To Øl - Implosion;Bière - sans alcool
 To Ol - Implosion;Bière - sans alcool
+To Øl - Implosion Lager;Bière - bouteille
+To Ol - Lowmotion pink;Bière - bouteille
 Tote Bag;Objet
 Triplex Coffea Dementia;Bière - bouteille
+TrueBrew - Home Grown;Bière - bouteille
 TrueBrew - Sundaze;Bière - bouteille
+T-shirt;Objet
 Typhon;Bière - bouteille
+UMA - Energie;Soft - soda
 Urbex Occurens Obscura;Bière - bouteille
 Val Gazeuse 25cl;Soft - eau
 Val gazeuse 50cl;Soft - eau
