@@ -6,9 +6,9 @@ produit;type
 90BPM - confiture de l'espace;Bière - bouteille
 90BPM - Mazout;Bière - bouteille
 90BPM - Mister Fraise;Bière - bouteille
-Adhésion;Adhésion
 Adhésion 2€;Adhésion
 Adhésion 5€;Adhésion
+Adhésion;Adhésion
 Aeblerov - Cox I Paeren;Bière - bouteille
 Agent Modérateur;Bière - sans alcool
 Agent Provocateur - 75cl;Bière - bouteille
@@ -27,9 +27,10 @@ Antipodes - spiritueux;Bière - bouteille
 Apéro Cantal;Food - salé
 Apex - DEMI;Bière - pression
 Apex - GALOPIN;Bière - pression
+Apex - Hellbenderc;Bière - bouteille
 Apex - PINTE;Bière - pression
-Archipel - Kombucha;soft - soda
 Archipel - Kombucha feuille de figue;Soft - soda
+Archipel - Kombucha;soft - soda
 Assommoir;Bière - bouteille
 Athelic - All Out Stout;Bière - bouteille
 AUTRE       - 12.5cl;Bière - pression
@@ -146,8 +147,8 @@ Cake salé;Food - sucré
 C.Allan - Agent Provocateur - 33cl;Bière - bouteille
 C.Allan - Psychédélia - 33cl;Bière - bouteille
 Cambier - Mongy Saison Bio;Bière - bouteille
-Cambier - NewFrenchIPA;ière - bouteille
 Cambier - New French IPA;Bière - bouteille
+Cambier - NewFrenchIPA;Bière - bouteille
 Cambier - Reserva;Bière - bouteille
 Cambier - Sabro Tonka;Bière - bouteille
 Cambier x Piggy - Sabro Tonka;Bière - bouteille
@@ -155,6 +156,7 @@ Camomille;Thé - infusion
 Can coutant;Bière - bouteille
 Cascadeuse;Bière - bouteille
 Cerberus;Bière - bouteille
+CHAPEAU ARTISTE;
 ChariTea black;Soft - soda
 ChariTea green;Soft - soda
 ChariTea maté;Soft - soda
@@ -168,6 +170,7 @@ ChariTea Thé Vert;Soft - soda
 Château Roc - Cuvée Amphora 2015 - Bouteille;Vin
 Chateau Rouge;Vin
 CH - Champagne Devaux;Vin
+CH - Champagne Feuillatte;Vin
 CH - Champagne Magelie;Vin
 Choco avoine;Thé - infusion
 Chocolat lait végétal;Thé - infusion
@@ -214,6 +217,7 @@ Dilettante - Kveik Rye Session IPA Citra x Mosaic;Bière - bouteille
 Dilettante- Sale Gose;Bière - bouteille
 Dilettante - Serge;Bière - bouteille
 Domaine de la Bergerie - Anjou Blanc Sous la Tonnelle 2015 - Bouteille;Vin
+Don;Don
 Double Expresso;Café
 Dr Meuh Ginger;Soft - soda
 Dr meuh;Soft - soda
@@ -236,8 +240,8 @@ Etoile du Nord;Bière - bouteille
 Être - Chanoir;Bière - bouteille
 Etre - Cruelle;Bière - bouteille
 Être - Ipanema;Bière - bouteille
-Être - Linneaus;Bière - bouteille
 Etre - Linneaus;Bière - bouteille
+Être - Linneaus;Bière - bouteille
 Etre - Oliphant;Bière - bouteille
 Être - Parum osculum;Bière - bouteille
 Etre - Saison De Magellan;Bière - bouteille
@@ -257,6 +261,7 @@ Fauve - Sous le Noir Firmament;Bière - bouteille
 Féond;Bière - bouteille
 Flamberge Vieillie;Bière - bouteille
 Flügge - Georg 1. 2020;Bière - bouteille
+Foie Gras;Food - salé
 Fritons;Food - salé
 Fromage (1/2 Planche);Food - salé
 Fromage (Planche);Food - salé
@@ -300,10 +305,12 @@ Ginette - PINTE;Bière - pression
 Ginger LemonAid;Soft - soda
 Goutte d'or - Brutal;Bière - bouteille
 Goutte d'or - La Chapelle;Bière - bouteille
+Goutte d'or - Mercure;Bière - bouteille
 Goutte d'or - Petit Grain;Bière - bouteille
 Grande Assiette;Food - salé
 Grand Paris - Chef  un canon;Bière - bouteille
 Grand Paris - Colorado Dream;Bière - bouteille
+Grand Paris - New Krush;Bière - bouteille
 Grand Paris - Old alliance;Bière - bouteille
 Herbe Bleue;Bière - bouteille
 Herbe bleue - DEMI;Bière - pression
@@ -324,6 +331,7 @@ Houmous - Aubergine;Food - salé
 HR - Bettle Juice;Bière - bouteille
 HR - Hazy Rider;Bière - bouteille
 India Project Ale;Bière - bouteille
+Infuse - BFR café;Bière - bouteille
 IPA - DEMI;Bière - pression
 IPA - GALOPIN;Bière - pression
 IPA - PINTE;Bière - pression
@@ -352,6 +360,9 @@ Kia Ora;Soft - soda
 Kir Cassis;Vin
 Kir Mûre;Bière - bouteille
 Kir Mûres;Vin
+Kombucha cassissier;soft - soda
+Kombucha figuier;soft - soda
+Kombucha framboisier;soft - soda
 La Chapelle;Bière - bouteille
 La planche commune;Food - salé
 Lapsang Souchong;Thé - infusion
@@ -563,6 +574,7 @@ SANS ALCOOL - 25cl;Bière sans alcool
 SANS ALCOOL - 50cl;Bière sans alcool
 Saucisse Séche;Food - salé
 Saucisse Sèche;Food - salé
+Saumon Fumé;Food - salé
 Shortbread;Bière - bouteille
 Siren - Furthest City Light;Bière - bouteille
 Siren - Nepenthe;Bière - bouteille
@@ -578,10 +590,13 @@ Spore - Imago;Bière - bouteille
 Spore - Nebi;Bière - bouteille
 Spore - Saisonette;Bière - bouteille
 Spore - Saison Surette;Bière - bouteille
+Spore - Surette Peche Romarin;Bière - bouteille
+Spore - Surette Pêche Romarin;Bière - bouteille
 Spore - Taheebo;Bière - bouteille
+Spore - Tourma;Bière - bouteille
 Spore - Treis Tounya Framboise;Bière - bouteille
-Ste Cru - Santa crue micro ale 0 8%;Bière - bouteille
-Ste Cru - Santa crue micro ale 0,8%;Bière - bouteille
+Ste Cru - Santa crue micro ale 0 8%;Bière - sans alcool
+Ste Cru - Santa crue micro ale 0,8%;Bière - sans alcool
 Ste Cru – Santa Crüe Serie DIP + Dry Hopped Oatmeal IPA;Bière - bouteille
 Ste Cru - Soft Power;Bière - bouteille
 Succube;Bière - bouteille
@@ -595,8 +610,9 @@ Tartine;Food - sucré
 Thé - Infusion;Thé - infusion
 Ti-Lo - cidre brut AB;Cidre
 Ti-Lo - cidre IPA AB;Cidre
-To Øl - Implosion;Bière - sans alcool
 To Ol - Implosion;Bière - sans alcool
+To Øl - Implosion;Bière - sans alcool
+To Øl - Implosion Fruited;Bière - sans alcool
 To Øl - Implosion Lager;Bière - bouteille
 To Ol - Lowmotion pink;Bière - bouteille
 Tote Bag;Objet
