@@ -11,8 +11,8 @@
 					  <div class="graph">
   				  <?php include('generated/'.$prefix.'recettes_06_benefice.html'); ?>
 			  	</div>
-				  <p class="explication">Bénéfice mensuel calculé par la somme des ventes mensuelles moins la marge commerciale annualisée (<a href="https://github.com/teymour/barco/blame/master/notebook/recettes.ipynb#L155-L161">détails</a>), moins la moyenne mensuelle des charges fixes annuelles (<a href="https://github.com/teymour/barco/blame/master/notebook/recettes.ipynb#L171-L177">détails</a>), moins la tva</p>
-  			  	  <p class="text-muted">Données : Zelty et <a href="https://drive.google.com/file/d/1e5FBeAKf_Nd8M4X3DkPBnE-u3Oc332Be/view">rapport financier 2022</a></p>
+				  <p class="explication">Bénéfice mensuel calculé par la somme des ventes mensuelles moins la marge commerciale annualisée (<a href="https://github.com/teymour/barco/blob/master/notebook/recettes.ipynb?short_path=519607e#L235-L243">détails</a>), moins la tva</p>
+  			  	  <p class="text-muted">Données : Zelty, <a href="https://drive.google.com/file/d/1e5FBeAKf_Nd8M4X3DkPBnE-u3Oc332Be/view">rapport financier 2022</a> et <a href="https://drive.google.com/file/d/1WaKuL7ZqgIsmStzPALoVjKgcIRJSeLTx/view">2023</a></p>
   			  	  </center>
   			  </div>
 			  <div class="row graphcard">
