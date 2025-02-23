@@ -18,6 +18,7 @@ Ag Prov - PINTE;Bière - pression
 Alabama - DEMI;Bière - pression
 Alabama - GALOPIN;Bière - pression
 Alabama - PINTE;Bière - pression
+Alimentaire;Vente coutant
 Allongé;Café
 Ambrée - DEMI;Bière - pression
 Ambrée - GALOPIN;Bière - pression
@@ -27,10 +28,11 @@ Antipodes - spiritueux;Bière - bouteille
 Apéro Cantal;Food - salé
 Apex - DEMI;Bière - pression
 Apex - GALOPIN;Bière - pression
+Apex - Hellbender;Bière - bouteille
 Apex - Hellbenderc;Bière - bouteille
 Apex - PINTE;Bière - pression
 Archipel - Kombucha feuille de figue;Soft - soda
-Archipel - Kombucha;soft - soda
+Archipel - Kombucha;Soft - soda
 Assommoir;Bière - bouteille
 Athelic - All Out Stout;Bière - bouteille
 AUTRE       - 12.5cl;Bière - pression
@@ -46,6 +48,7 @@ Bapbap - Bang Bang;Bière - sans alcool
 BapBap - Chimère Rouge;Bière - bouteille
 BapBap - Opale Pinot Noir;Bière - bouteille
 Barco - Bière Commune Bt;Bière - bouteille
+Basqueland Hero;Bière - bouteille
 BAVIK - 12.5cl;Bière - pression
 BAVIK - 25cl;Bière - pression
 BAVIK - 50cl;Bière - pression
@@ -125,7 +128,9 @@ BL - R. Dufaitre - Bouteille;Vin
 BL - R. Dufaitre - Verre;Vin
 BL - Saumur - Bouteille;Vin
 BL - Saumur - Verre;Vin
+Boisson alcoolisée;Vente coutant
 Boisson coutant;Bière - bouteille
+Boisson non alcoolisée;Vente coutant
 Bon dégustation vin;Vin
 Bon Matin;Bière - bouteille
 BOS Citron;Soft - soda
@@ -208,6 +213,7 @@ Débauche - Black Ale India;Bière - bouteille
 Débauche - Cognac Barrel;Bière - bouteille
 Débauche - Cute & Sober;Bière - bouteille
 Débauche - Double Belge;Bière - bouteille
+Débauche - Slap a banker;Bière - bouteille
 Décapsuleur Barco;Objet
 DECAPSULEUR;Objet
 Demi-Planche Fromage;Bière - pression
@@ -255,7 +261,9 @@ Express - GALOPIN;Bière - pression
 Expresso;Café
 Express - PINTE;Bière - pression
 Fauve - 400coups;Bière - bouteille
+Fauve - Douce France;Bière - bouteille
 Fauve - French Bisou;Bière - bouteille
+Fauve - Mariage à Vegas;Bière - bouteille
 Fauve - Rejaillir le feu;Bière - bouteille
 Fauve - Sous le Noir Firmament;Bière - bouteille
 Féond;Bière - bouteille
@@ -308,8 +316,11 @@ Goutte d'or - La Chapelle;Bière - bouteille
 Goutte d'or - Mercure;Bière - bouteille
 Goutte d'or - Petit Grain;Bière - bouteille
 Grande Assiette;Food - salé
+Grand Paris - A l'ouest;Bière - bouteille
 Grand Paris - Chef  un canon;Bière - bouteille
 Grand Paris - Colorado Dream;Bière - bouteille
+Grand Paris - Double Citra Galactique;Bière - bouteille
+Grand Paris - Jasmin soif;Bière - bouteille
 Grand Paris - New Krush;Bière - bouteille
 Grand Paris - Old alliance;Bière - bouteille
 Herbe Bleue;Bière - bouteille
@@ -360,9 +371,13 @@ Kia Ora;Soft - soda
 Kir Cassis;Vin
 Kir Mûre;Bière - bouteille
 Kir Mûres;Vin
-Kombucha cassissier;soft - soda
-Kombucha figuier;soft - soda
-Kombucha framboisier;soft - soda
+Kombucha - 12.5cl;Soft - pression
+Kombucha - 25cl;Soft - pression
+Kombucha - 50cl;Soft - pression
+Kombucha cassissier;Soft - soda
+Kombucha clémentine;Soft - soda
+Kombucha figuier;Soft - soda
+Kombucha framboisier;Soft - soda
 La Chapelle;Bière - bouteille
 La planche commune;Food - salé
 Lapsang Souchong;Thé - infusion
@@ -433,7 +448,7 @@ Pâté/Fritons;Food - salé
 Patisserie Orientale;Food - sucré
 PBW - DEMI;Bière - pression
 PBW - PINTE;Bière - pression
-Pétillant sans alcool;Bière sans alcool
+Pétillant sans alcool;Bière - sans alcool
 Petite Pigalle;Bière - bouteille
 Petite Princesse - DEMI;Bière - pression
 Petite Princesse - PINTE;Bière - pression
@@ -488,6 +503,7 @@ Psychédélia - 75cl;Bière - bouteille
 Psychédélia;Bière - bouteille
 P'tite Maiz' - Zapoï;Bière - bouteille
 P'tite Rouquine;Bière - bouteille
+Puhaste Jokker;Bière - sans alcool
 Québecoises;Bière - bouteille
 Raisin Rouge;Soft - jus
 Red/Bouteille (Verre);Vin
@@ -569,9 +585,9 @@ Saison Chemin de Fer;Bière - bouteille
 Saison De Magellan;Bière - bouteille
 Salamandra aux fruits;Bière - bouteille
 Salamandra;Bière - bouteille
-SANS ALCOOL - 12.5cl;Bière sans alcool
-SANS ALCOOL - 25cl;Bière sans alcool
-SANS ALCOOL - 50cl;Bière sans alcool
+SANS ALCOOL - 12.5cl;Bière - sans alcool
+SANS ALCOOL - 25cl;Bière - sans alcool
+SANS ALCOOL - 50cl;Bière - sans alcool
 Saucisse Séche;Food - salé
 Saucisse Sèche;Food - salé
 Saumon Fumé;Food - salé
@@ -633,6 +649,7 @@ Valmy IPA - PINTE;Bière - pression
 Val Tonic - 25cl;Soft - eau
 Verre de Limonade + sirop;Soft - soda
 Verre de Val Limonade;Soft - soda
+Verre jus d'Orange pressé;Soft - jus
 Verre jus d'Orange;Soft - jus
 Verre les pièces longues;Vin
 Verre vin standard;Vin
