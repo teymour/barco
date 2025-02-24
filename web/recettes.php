@@ -55,6 +55,19 @@
 				<p class="text-muted">Données : Zelty</p>
 				</center>
 			  </div>
+
+                          <div class="row graphcard">
+                                <h2 id="Recette_2_mois">Recette quotidienne sur les 2 derniers mois <a href="#Recette_2_mois" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
+                                <center>
+                                <div class="graph">
+                                <?php include('generated/'.$prefix.'recettes_04_ca_quotidien_2_mois.html'); ?>
+                                </div>
+                                <p class="explication">Recettes quotidiennes sur les 2 derniers mois (barre horizontale représente le montant quotidien de recette nécessaire pour atteindre le point mort, le fait que toutes les charges sont payées)</p>
+                                <p class="text-muted">Données : Zelty</p>
+                                </center>
+                          </div>
+
+
 			  <div class="row graphcard">
 				  <h2 id="Téléchargement">Téléchargement <a href="#Téléchargement" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
 				  <ul class="px-5">
