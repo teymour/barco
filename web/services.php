@@ -86,6 +86,26 @@
   			  	</center>
 			</div>
 			<div class="row graphcard">
+				<h2 id="Nb_referents_non_ref">Nombre formés réf. / non formés par semaine<a href="#Nb_referents_non_ref" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
+				<center>
+				<div class="graph">
+				<?php include("generated/".$prefix."baristas_09_nb_ref_non_ref.html"); ?>
+				</div>
+				<p class="explication">Nombre de services réalisés par des personnes formées comme référent ou non formées, par semaine sur 12 mois.
+  			  	<p class="text-muted">Données : agenda partagé des services</p>
+  			  	</center>
+			</div>
+			<div class="row graphcard">
+				<h2 id="Ratio_referents_non_ref">Ratio formés réf. / non formés par semaine<a href="#Ratio_referents_non_ref" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
+				<center>
+				<div class="graph">
+				<?php include("generated/".$prefix."baristas_09_pc_ref_non_ref.html"); ?>
+				</div>
+				<p class="explication">Ratio des services réalisés par des personnes formées comme référent ou non formées, par semaine sur 12 mois.
+  			  	<p class="text-muted">Données : agenda partagé des services</p>
+  			  	</center>
+			</div>
+			<div class="row graphcard">
 				<h2 id="Nombre_de_services_par_baristas_sur_12_mois">Nombre de services par baristas sur 12 mois <a href="#Nombre_de_services_par_baristas_sur_12_mois" class="btn-link text-secondary opacity-25"><small>#</small></a></h2>
 				<center>
 				<div class="graph">
