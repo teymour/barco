@@ -76,7 +76,21 @@ web/generated/recettes_06_benefice.html: web/generated/recettes_01_ca_par_catego
 	LIMIT_YEAR=2023 python notebook/adhesions.py
 	LIMIT_YEAR=2023 python notebook/evenements.py
 
-annees: 2023 2022 2021 2020 2019 2018 2017
+2024:
+	LIMIT_YEAR=2024 python notebook/baristas.py
+	LIMIT_YEAR=2024 python notebook/recettes.py
+	LIMIT_YEAR=2024 python notebook/adhesions.py
+	LIMIT_YEAR=2024 python notebook/evenements.py
+
+2025:
+	LIMIT_YEAR=2025 python notebook/baristas.py
+	LIMIT_YEAR=2025 python notebook/recettes.py
+	LIMIT_YEAR=2025 python notebook/adhesions.py
+	LIMIT_YEAR=2025 python notebook/evenements.py
+
+
+
+annees: 2025 2024 2023 2022 2021 2020 2019 2018 2017
 
 update:
 	bash bin/zelty.sh
