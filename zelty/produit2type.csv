@@ -42,6 +42,7 @@ AUTRE       - 50cl;Bière - pression
 Autres - DEMI;Bière - pression
 Autres - GALOPIN;Bière - pression
 Autres - PINTE;Bière - pression
+Autre vin;Vin
 Azvex - False Color;Bière - bouteille
 Baba Berlin;Bière - bouteille
 Bapbap - Bang Bang;Bière - sans alcool
@@ -49,6 +50,7 @@ BapBap - Chimère Rouge;Bière - bouteille
 BapBap - Opale Pinot Noir;Bière - bouteille
 Barco - Bière Commune Bt;Bière - bouteille
 Basqueland Hero;Bière - bouteille
+Basqueland - Hero tostada;Bière - bouteille
 BAVIK - 12.5cl;Bière - pression
 BAVIK - 25cl;Bière - pression
 BAVIK - 50cl;Bière - pression
@@ -65,6 +67,7 @@ Bendorf - Retour du givre;Bière - bouteille
 Bendorf - Retour du Givre Citron Basilic;Bière - bouteille
 Bendorf - Service !;Bière - bouteille
 Bendorf - This is hop less;Bière - bouteille
+Bendorf - Volupté du chaos cerise;Bière - bouteille
 BFM - Indjana Sid Sour;Bière - bouteille
 BFM - Indjiana;Bière - bouteille
 Bière bt promo emporter;Bière - bouteille
@@ -110,6 +113,7 @@ BL - La Java Viognier;Vin
 BL - Les Agudes - Verre;Vin
 BL - Les Fresnettes - Chateau Targé;Vin
 BL - Les Perrières - Bouteille;Vin
+BL - Les Perrières - Bouteille;Vin
 BL - Les Perrières - Verre;Vin
 BL - Les Pierrères - Bouteille;Vin
 BL - Les Pierrères - Verre;Vin
@@ -126,6 +130,7 @@ BL - Pommia Bourgogne Blanc - Bouteille;Vin
 BL - Pommia Bourgogne blanc - Verre;Vin
 BL - R. Dufaitre - Bouteille;Vin
 BL - R. Dufaitre - Verre;Vin
+BL - Saumur - Bouteille;Vin
 BL - Saumur - Bouteille;Vin
 BL - Saumur - Verre;Vin
 Boisson alcoolisée;Vente coutant
@@ -180,6 +185,7 @@ CH - Champagne Magelie;Vin
 Choco avoine;Thé - infusion
 Chocolat lait végétal;Thé - infusion
 Chocolat;Thé - infusion
+Chocolat vegetal;Thé - infusion
 Chorizo;Food - salé
 Cide extra-brut bio - Appie;Cidre
 Cide houblonné bio - Appie;Cidre
@@ -187,6 +193,10 @@ Cidre - bouteille 33cl;Cidre
 Cidre brut bio - Le P'tit Fausset;Cidre
 Cidre - Vergers d'Ohain;Cidre
 Cidre - Verre;Cidre
+Citra - DEMI;Bière - pression
+Citra - GALOPIN;Bière - pression
+Citra - GALOPIN;Bière - pression
+Citra - PINTE;Bière - pression
 Citron Vert LemonAid;Soft - soda
 Classic Chai;Thé - infusion
 Coconino - Moonlight;Bière - bouteille
@@ -194,11 +204,13 @@ Colonel Moutarde;Bière - bouteille
 Communard Cassis;Vin
 Communard Mûres;Vin
 Communard Mûre;Vin
+Communard;Vin
 Commune Louve - 12.5cl;Bière - pression
 Commune Louve - 25cl;Bière - pression
 Commune Louve - 50cl;Bière - pression
 Cookie;Food - sucré
 Craig Allan - Agent Modérateur;Bière - sans alcool
+Craig Allan - Black Market;Bière - bouteille
 Craig Allan - Cuvée d'Oscar;Bière - bouteille
 Crazy IPA - DEMI;Bière - pression
 Crazy IPA - GALOPIN;Bière - pression
@@ -232,6 +244,7 @@ Earl Grey;Thé - infusion
 Eau de Perrier;Soft - eau
 Ecocup Barco;Objet
 Effet Papillon- Brett Series;Bière - bouteille
+Effet Papillon - Pils Francaise;Bière - bouteille
 Eik&Tid - Krypto Foeder Aged;Bière - bouteille
 English Breakfast;Thé - infusion
 Ephémère - DEMI;Bière - pression
@@ -249,6 +262,7 @@ Etre - Cruelle;Bière - bouteille
 Etre - Linneaus;Bière - bouteille
 Être - Linneaus;Bière - bouteille
 Etre - Oliphant;Bière - bouteille
+Être - Oliphant;Bière - bouteille
 Être - Parum osculum;Bière - bouteille
 Etre - Saison De Magellan;Bière - bouteille
 Être - Salamandra;Bière - bouteille
@@ -263,7 +277,9 @@ Express - PINTE;Bière - pression
 Fauve - 400coups;Bière - bouteille
 Fauve - Douce France;Bière - bouteille
 Fauve - French Bisou;Bière - bouteille
+Fauve - Garde à Vous;Bière - bouteille
 Fauve - Mariage à Vegas;Bière - bouteille
+Fauve - Océan Indien;Bière - bouteille
 Fauve - Rejaillir le feu;Bière - bouteille
 Fauve - Sous le Noir Firmament;Bière - bouteille
 Féond;Bière - bouteille
@@ -272,6 +288,7 @@ Flügge - Georg 1. 2020;Bière - bouteille
 Foie Gras;Food - salé
 Fritons;Food - salé
 Fromage (1/2 Planche);Food - salé
+Fromage (Grande planche);Food - salé
 Fromage (Planche);Food - salé
 Fruit de la Passion LemonAid;Soft - soda
 Galibot - IPL;Bière - bouteille
@@ -319,8 +336,12 @@ Grande Assiette;Food - salé
 Grand Paris - A l'ouest;Bière - bouteille
 Grand Paris - Chef  un canon;Bière - bouteille
 Grand Paris - Colorado Dream;Bière - bouteille
+Grand Paris - Comme une chef;Bière - bouteille
 Grand Paris - Double Citra Galactique;Bière - bouteille
+Grand Paris - Fantôme de fer;Bière - bouteille
 Grand Paris - Jasmin soif;Bière - bouteille
+Grand Paris - Mad Mars;Bière - bouteille
+Grand Paris - NEIPA Citra Galactique;Bière - bouteille
 Grand Paris - New Krush;Bière - bouteille
 Grand Paris - Old alliance;Bière - bouteille
 Herbe Bleue;Bière - bouteille
@@ -350,6 +371,7 @@ Iron - Double India Black Lager;Bière - bouteille
 Iron - Golgoth;Bière - bouteille
 Iron - Imperial Stout BA Cerise;Bière - bouteille
 Iron - Sour Goyave Tomate Basilic Citron;Bière - bouteille
+Jaanihanso - Cidre Rosé Naturel Non-Alcoholic;Cidre
 Jasmin;Thé - infusion
 Jenlain Ambrée - DEMI;Bière - pression
 Jenlain Ambrée - GALOPIN;Bière - pression
@@ -377,7 +399,9 @@ Kombucha - 50cl;Soft - pression
 Kombucha cassissier;Soft - soda
 Kombucha clémentine;Soft - soda
 Kombucha figuier;Soft - soda
+Kombucha framboise;Soft - soda
 Kombucha framboisier;Soft - soda
+Kombucha pomelo-gingembre;Soft - soda
 La Chapelle;Bière - bouteille
 La planche commune;Food - salé
 Lapsang Souchong;Thé - infusion
@@ -436,7 +460,9 @@ Pack 4 Bière Commune / Ecocup;Bière - bouteille
 Pain d'épices (3 tranches);Food - sucré
 Pain d'épices (4 tranches);Food - sucré
 PANACHE - 25cl;Bière - pression
+PANACHÉ - 25cl;Bière - pression
 PANACHE - 50cl;Bière - pression
+PANACHÉ - 50cl;Bière - pression
 Panaché - DEMI;Bière - pression
 Panaché - PINTE;Bière - pression
 Paris Cola - 25cl;Soft - soda
@@ -469,10 +495,12 @@ Piggy - Smoked Serie #2 Gose Fumée;Bière - bouteille
 Piggy - Xmas Miracle;Bière - bouteille
 Pimp;Bière - bouteille
 Planche Commune;Food - salé
+Planche fromage;Food - salé
 Planche Fromage;Food - salé
 Planche Végétarienne;Food - salé
 PL - Conteuse de Lune;Bière - bouteille
 PL - Eclipses 2021 Saison Mirabelle;Bière - bouteille
+Pleine Lune - Pierre de Lune;Bière - bouteille
 PL - Lunaski;Bière - bouteille
 PL - Lunette;Bière - bouteille
 PL - Lunième;Bière - bouteille
@@ -612,6 +640,7 @@ Spore - Taheebo;Bière - bouteille
 Spore - Tourma;Bière - bouteille
 Spore - Treis Tounya Framboise;Bière - bouteille
 Ste Cru - Santa crue micro ale 0 8%;Bière - sans alcool
+Ste Cru - Santa crue micro ale 0 8%;Bière - sans alcool
 Ste Cru - Santa crue micro ale 0,8%;Bière - sans alcool
 Ste Cru – Santa Crüe Serie DIP + Dry Hopped Oatmeal IPA;Bière - bouteille
 Ste Cru - Soft Power;Bière - bouteille
@@ -624,14 +653,19 @@ Sweet Ganesh;Bière - bouteille
 Tablier;Objet
 Tartine;Food - sucré
 Thé - Infusion;Thé - infusion
+The Kernel - Export India Porter;Bière - bouteille
 Ti-Lo - cidre brut AB;Cidre
 Ti-Lo - cidre IPA AB;Cidre
 To Ol - Implosion;Bière - sans alcool
 To Øl - Implosion;Bière - sans alcool
 To Øl - Implosion Fruited;Bière - sans alcool
-To Øl - Implosion Lager;Bière - bouteille
-To Ol - Lowmotion pink;Bière - bouteille
+To Øl - Implosion Lager;Bière - sans alcool
+To Øl - Implosion Pink Sour;Bière - sans alcool
+To Ol - Lowmotion pink;Bière - sans alcool
 Tote Bag;Objet
+Toussaint - Double IPA;Bière - bouteille
+Toussaint - La Cloclo de saison;Bière - bouteille
+Toussaint - Micro IPA;Bière - bouteille
 Triplex Coffea Dementia;Bière - bouteille
 TrueBrew - Home Grown;Bière - bouteille
 TrueBrew - Sundaze;Bière - bouteille
@@ -647,6 +681,7 @@ Valmy IPA - DEMI;Bière - pression
 Valmy IPA - GALOPIN;Bière - pression
 Valmy IPA - PINTE;Bière - pression
 Val Tonic - 25cl;Soft - eau
+Verre de lait;Thé - infusion
 Verre de Limonade + sirop;Soft - soda
 Verre de Val Limonade;Soft - soda
 Verre jus d'Orange pressé;Soft - jus
